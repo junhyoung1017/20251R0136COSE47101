@@ -97,7 +97,13 @@ async function getTopRepositories(username, count = 3) {
     return [];
   }
 }
+// 수집할 언어 목록
+const TARGET_LANGUAGES = [
+  'Assembly', 'C', 'C++', 'C#', 'Dart', 'Go', 'Java', 'JavaScript', 'Kotlin',
+  'MATLAB', 'PHP', 'Python', 'Ruby', 'Rust', 'Scala', 'Swift', 'TypeScript'
+];
 
+/**
 /**
  * 사용자의 언어 특성 벡터 생성
  * @param {Array<Object>} repositories - 저장소 정보 배열
@@ -112,29 +118,34 @@ function createLanguageFeatureVector(repositories) {
     return {};
   }
   
-  // 각 저장소의 언어 비율 수집
-  repositories.forEach((repo, index) => {
-    // 별표 수를 기반으로 가중치 적용 (더 많은 별표 = 더 높은 가중치)
+  repositories.forEach((repo) => {
     const weight = 1 + Math.log(repo.stars + 1) / 10;
-    
     Object.entries(repo.languageRatios || {}).forEach(([language, percentage]) => {
-      languageCounts[language] = (languageCounts[language] || 0) + (percentage * weight);
+      // 원하는 언어만 누적
+      if (TARGET_LANGUAGES.includes(language)) {
+        languageCounts[language] = (languageCounts[language] || 0) + (percentage * weight);
+      }
     });
   });
-  
-  // 정규화 (0-1 범위로 조정)
+
   const totalCounts = Object.values(languageCounts).reduce((sum, count) => sum + count, 0);
-  
+
   const languageFeatures = {};
   if (totalCounts > 0) {
-    Object.entries(languageCounts).forEach(([language, count]) => {
-      languageFeatures[language] = parseFloat((count / totalCounts).toFixed(4));
+    TARGET_LANGUAGES.forEach(language => {
+      languageFeatures[language] = languageCounts[language]
+        ? parseFloat((languageCounts[language] / totalCounts).toFixed(4))
+        : 0;
+    });
+  } else {
+    // 모든 값 0으로 초기화
+    TARGET_LANGUAGES.forEach(language => {
+      languageFeatures[language] = 0;
     });
   }
-  
+
   return languageFeatures;
 }
-
 /**
  * 특정 ID 범위의 사용자 정보 가져오기
  * @param {number} startId - 시작 사용자 ID
@@ -706,7 +717,7 @@ function createTfidfVectors(userTokens) {
   };
 }
 
-/**
+/*
  * LDA 토픽 모델링 (오류 처리 강화)
  * @param {Array<{username: string, tokens: Array<string>}>} userTokens - 사용자별 토큰 배열
  * @param {number} numTopics - 토픽 수
