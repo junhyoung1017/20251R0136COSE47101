@@ -11,36 +11,58 @@ from sklearn.manifold import TSNE
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.decomposition import TruncatedSVD
 from scipy.spatial.distance import cdist,pdist,squareform
-
 ##그래프 깨짐 방지지
 plt.rcParams['font.family'] = 'Malgun Gothic'  # Windows의 한글 폰트
 plt.rcParams['axes.unicode_minus'] = False     # 마이너스(-) 깨짐 방지
-######
+##
 data=pd.read_csv('C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/github/data/github_profiles_total_v2.csv')
 X=data
+
+data["JS"]=data[['JavaScript', 'TypeScript']].max(axis=1)
+data["Ruby"]=data[['Ruby', 'PHP']].max(axis=1)
+data["Go"]=data[['Go', 'Rust']].max(axis=1)
+data.drop(columns=['TypeScript', 'PHP', 'Rust','C++','C',"JavaScript"], inplace=True)
+#data.to_csv('C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/github/data/github_profiles_total_v2_re.csv', index=False)
+#repo_count x개 이상인 사람만 남기고 지우기
+data['repo_count']= data['repo_count'].apply(lambda x: 1 if x>=8 else 0)
+data = data[data['repo_count'] == 1]
 df=data.drop(columns=["user_ID","username","repo_count"])
-'''# Explained Variance Ratio 누적합으로 Truncated SVD의 최적 차원 수 결정
-svd = TruncatedSVD(n_components=17, random_state=42)
-svd.fit(df)
-plt.plot(np.cumsum(svd.explained_variance_ratio_))
-plt.xlabel("Number of components")
-plt.ylabel("Cumulative explained variance")
-plt.title("Truncated SVD - Explained Variance")
-plt.grid(True)
-plt.show()'''
+#rare_langs
+rare_langs = ['Go','Kotlin', 'Swift', 'Dart', 'Scala', 'MATLAB', 'Assembly']
+
+# 사용된 rare 언어들을 문자열로 병합
+df['rare_lang'] = df[rare_langs].apply(
+    lambda row: ','.join(lang for lang in rare_langs if row[lang] > 0),
+    axis=1
+)
+# 개별 rare 언어 column은 제거
+df.drop(columns=rare_langs, inplace=True)
+#모든 언어 값이 0인 행 제거 (rare_lang 제외)
+df_numeric = df.drop(columns=['rare_lang'])  # 수치형 열만
+df = df[df_numeric.sum(axis=1) > 0]          # 총합이 0인 행 제거
+
+df['rare_lang_list'] = df['rare_lang'].apply(lambda x: x.split(',') if x else [])
+# One-hot 인코딩
+mlb = MultiLabelBinarizer()
+rare_matrix = mlb.fit_transform(df['rare_lang_list'])
+rare_df = pd.DataFrame(rare_matrix, columns=mlb.classes_, index=df.index)
+# 수치형 데이터와 병합
+df_final = pd.concat([df.drop(columns=['rare_lang', 'rare_lang_list']), rare_df], axis=1)
+# df_final.to_csv('C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/github/data/github_profiles_total_v2_test.csv', index=False)
 # 1. SVD로 차원 축소
 svd = TruncatedSVD(n_components=8, random_state=42)
-df_svd = svd.fit_transform(df)
 
-# 2. 클러스터링 (SVD 결과로)
+df_svd = svd.fit_transform(df_final)
+# #2D 시각화
 kmeans = KMeans(n_clusters=10, random_state=42)
 clusters = kmeans.fit_predict(df_svd)
 
 # 1. 클러스터 중심 (표준화 공간) → 역정규화
+
 cluster_centers_original = svd.inverse_transform(kmeans.cluster_centers_)
 
 # 2. 각 클러스터 중심에서 가장 큰 언어 (대표 언어)
-df_columns = df.columns
+df_columns = df_final.columns
 top_languages = []
 for center in cluster_centers_original:
     top_idx = np.argmax(center)
@@ -80,7 +102,6 @@ plt.xlabel("t-SNE 1")
 plt.ylabel("t-SNE 2")
 plt.colorbar(sc,label="Cluster")
 plt.show()
-
 # 3. 원본 데이터에서 언어 비율 출력
 n_clusters = kmeans.n_clusters
 n_cols = 5
@@ -90,7 +111,7 @@ plt.figure(figsize=(n_cols * 4, n_rows * 4))
 for i in range(kmeans.n_clusters):
     cluster_indices = np.where(clusters == i)[0]
     # rare 언어까지 포함한 데이터 사용
-    cluster_data = df.iloc[cluster_indices]
+    cluster_data = df_final.iloc[cluster_indices]
     # # 수치형 컬럼만 선택
     # cluster_data = df.drop(columns=['rare_lang', 'rare_lang_list']).iloc[cluster_indices]
     mean_ratios = cluster_data.mean(axis=0)
@@ -98,7 +119,7 @@ for i in range(kmeans.n_clusters):
 
     # TOP3 언어만 시각화
     top3_idx = np.argsort(mean_ratios_percent)[-3:][::-1]
-    top3_langs = [df.columns[idx] for idx in top3_idx]
+    top3_langs = [df_final.columns[idx] for idx in top3_idx]
     top3_vals = [mean_ratios_percent.iloc[idx] for idx in top3_idx]
 
     plt.subplot(n_rows, n_cols, i + 1)
@@ -108,9 +129,8 @@ for i in range(kmeans.n_clusters):
     plt.xlabel("언어")
     plt.ylim(0, 100)
     plt.tight_layout()
-    
+#여러 그래프 한 화면에 출력
 plt.show()
-
 
 #evaluation
 sum=0

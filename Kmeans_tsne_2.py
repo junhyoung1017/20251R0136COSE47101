@@ -19,25 +19,37 @@ plt.rcParams['axes.unicode_minus'] = False     # 마이너스(-) 깨짐 방지
 data=pd.read_csv('C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/github/data/github_profiles_total_v2.csv')
 X=data
 df=data.drop(columns=["user_ID","username","repo_count"])
-'''# Explained Variance Ratio 누적합으로 Truncated SVD의 최적 차원 수 결정
-svd = TruncatedSVD(n_components=17, random_state=42)
-svd.fit(df)
-plt.plot(np.cumsum(svd.explained_variance_ratio_))
-plt.xlabel("Number of components")
-plt.ylabel("Cumulative explained variance")
-plt.title("Truncated SVD - Explained Variance")
-plt.grid(True)
-plt.show()'''
-# 1. SVD로 차원 축소
-svd = TruncatedSVD(n_components=8, random_state=42)
-df_svd = svd.fit_transform(df)
 
-# 2. 클러스터링 (SVD 결과로)
-kmeans = KMeans(n_clusters=10, random_state=42)
-clusters = kmeans.fit_predict(df_svd)
+'''rare_langs = ['Go','Rust', 'Kotlin', 'Swift', 'Dart', 'Scala', 'MATLAB', 'Assembly']
+
+# 사용된 rare 언어들을 문자열로 병합
+df['rare_lang'] = df[rare_langs].apply(
+    lambda row: ','.join(lang for lang in rare_langs if row[lang] > 0),
+    axis=1
+)
+# 개별 rare 언어 column은 제거
+df.drop(columns=rare_langs, inplace=True)
+#모든 언어 값이 0인 행 제거 (rare_lang 제외)
+df_numeric = df.drop(columns=['rare_lang'])  # 수치형 열만
+df = df[df_numeric.sum(axis=1) > 0]          # 총합이 0인 행 제거
+
+df['rare_lang_list'] = df['rare_lang'].apply(lambda x: x.split(',') if x else [])
+# One-hot 인코딩
+mlb = MultiLabelBinarizer()
+rare_matrix = mlb.fit_transform(df['rare_lang_list'])
+rare_df = pd.DataFrame(rare_matrix, columns=mlb.classes_, index=df.index)
+# 수치형 데이터와 병합
+df_final = pd.concat([df.drop(columns=['rare_lang', 'rare_lang_list']), rare_df], axis=1)'''
+# 1. 데이터 표준화
+scaler = StandardScaler()
+df_scaled = scaler.fit_transform(df)
+# #2D 시각화
+kmeans = KMeans(n_clusters=5, random_state=42)
+clusters = kmeans.fit_predict(df_scaled)
 
 # 1. 클러스터 중심 (표준화 공간) → 역정규화
-cluster_centers_original = svd.inverse_transform(kmeans.cluster_centers_)
+
+cluster_centers_original = scaler.inverse_transform(kmeans.cluster_centers_)
 
 # 2. 각 클러스터 중심에서 가장 큰 언어 (대표 언어)
 df_columns = df.columns
@@ -49,7 +61,7 @@ for center in cluster_centers_original:
 
 # 2D t-SNE
 tsne = TSNE(n_components=2, random_state=42, perplexity=30)
-X_tsne = tsne.fit_transform(df_svd)
+X_tsne = tsne.fit_transform(df_scaled)
 
 tsne_centers = TSNE(n_components=2, random_state=42, perplexity=3)
 centers_tsne = tsne_centers.fit_transform(kmeans.cluster_centers_)
@@ -60,7 +72,7 @@ for i, center in enumerate(kmeans.cluster_centers_):
     # 해당 클러스터에 속한 데이터의 인덱스
     cluster_indices = np.where(clusters == i)[0]
     # 해당 클러스터 데이터의 scaled 값
-    cluster_points = df_svd[cluster_indices]
+    cluster_points = df_scaled[cluster_indices]
     # 중심과의 거리 계산
     distances = cdist([center], cluster_points)
     # 가장 가까운 데이터 인덱스
@@ -80,37 +92,45 @@ plt.xlabel("t-SNE 1")
 plt.ylabel("t-SNE 2")
 plt.colorbar(sc,label="Cluster")
 plt.show()
-
-# 3. 원본 데이터에서 언어 비율 출력
-n_clusters = kmeans.n_clusters
-n_cols = 5
-n_rows = int(np.ceil(n_clusters / n_cols))
-
-plt.figure(figsize=(n_cols * 4, n_rows * 4))
+# 클러스터별 언어 비율 TOP3만 출력
 for i in range(kmeans.n_clusters):
     cluster_indices = np.where(clusters == i)[0]
-    # rare 언어까지 포함한 데이터 사용
-    cluster_data = df.iloc[cluster_indices]
-    # # 수치형 컬럼만 선택
-    # cluster_data = df.drop(columns=['rare_lang', 'rare_lang_list']).iloc[cluster_indices]
+    cluster_data = scaler.inverse_transform(df_scaled)[cluster_indices]
     mean_ratios = cluster_data.mean(axis=0)
     mean_ratios_percent = mean_ratios / mean_ratios.sum() * 100
 
-    # TOP3 언어만 시각화
+    # TOP3 언어 인덱스와 값 추출
     top3_idx = np.argsort(mean_ratios_percent)[-3:][::-1]
     top3_langs = [df.columns[idx] for idx in top3_idx]
-    top3_vals = [mean_ratios_percent.iloc[idx] for idx in top3_idx]
+    top3_vals = [mean_ratios_percent[idx] for idx in top3_idx]
 
-    plt.subplot(n_rows, n_cols, i + 1)
+    plt.figure(figsize=(6, 4))
     plt.bar(top3_langs, top3_vals, color='skyblue')
     plt.title(f"Cluster {i} TOP3 언어 비율(%)")
     plt.ylabel("비율(%)")
     plt.xlabel("언어")
     plt.ylim(0, 100)
     plt.tight_layout()
-    
-plt.show()
+    plt.show()
+'''# 클러스터별 언어 비율 평균 계산
+for i in range(kmeans.n_clusters):
+    # 해당 클러스터에 속한 데이터 인덱스
+    cluster_indices = np.where(clusters == i)[0]
+    # 원본 스케일로 역변환된 데이터에서 해당 클러스터 데이터만 추출
+    cluster_data = scaler.inverse_transform(df_scaled)[cluster_indices]
+    # 각 언어별 평균 비율 계산
+    mean_ratios = cluster_data.mean(axis=0)
+    # 퍼센트(%)로 변환
+    mean_ratios_percent = mean_ratios / mean_ratios.sum() * 100
 
+    plt.figure(figsize=(10, 4))
+    plt.bar(df.columns, mean_ratios_percent)
+    plt.title(f"Cluster {i} 언어별 평균 비율(%)")
+    plt.ylabel("비율(%)")
+    plt.xlabel("언어")
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.show()'''
 
 #evaluation
 sum=0
