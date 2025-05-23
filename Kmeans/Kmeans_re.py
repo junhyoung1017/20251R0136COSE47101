@@ -18,17 +18,15 @@ plt.rcParams['axes.unicode_minus'] = False     # 마이너스(-) 깨짐 방지
 data=pd.read_csv('C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/github/data/github_profiles_total_v2.csv')
 X=data
 
-data["JS"]=data[['JavaScript', 'TypeScript']].max(axis=1)
-data["Ruby"]=data[['Ruby', 'PHP']].max(axis=1)
-data["Go"]=data[['Go', 'Rust']].max(axis=1)
-data.drop(columns=['TypeScript', 'PHP', 'Rust','C++','C',"JavaScript"], inplace=True)
-#data.to_csv('C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/github/data/github_profiles_total_v2_re.csv', index=False)
+data["JS"]=data[['JavaScript', 'TypeScript']].mean(axis=1)
+data["C/C++"]=data[['C', 'C++']].mean(axis=1)
+data.drop(columns=['JavaScript','TypeScript', 'C',"C++"], inplace=True)
 #repo_count x개 이상인 사람만 남기고 지우기
-data['repo_count']= data['repo_count'].apply(lambda x: 1 if x>=8 else 0)
+data['repo_count']= data['repo_count'].apply(lambda x: 1 if x>=10 else 0)
 data = data[data['repo_count'] == 1]
-df=data.drop(columns=["user_ID","username","repo_count"])
+df=data.drop(columns=["user_ID","repo_count"])
 #rare_langs
-rare_langs = ['Go','Kotlin', 'Swift', 'Dart', 'Scala', 'MATLAB', 'Assembly']
+rare_langs = ['Ruby','Go','Kotlin', 'Swift', 'Dart', 'Scala', 'MATLAB', 'Assembly','Rust']
 
 # 사용된 rare 언어들을 문자열로 병합
 df['rare_lang'] = df[rare_langs].apply(
@@ -38,7 +36,7 @@ df['rare_lang'] = df[rare_langs].apply(
 # 개별 rare 언어 column은 제거
 df.drop(columns=rare_langs, inplace=True)
 #모든 언어 값이 0인 행 제거 (rare_lang 제외)
-df_numeric = df.drop(columns=['rare_lang'])  # 수치형 열만
+df_numeric = df.drop(columns=['username','rare_lang'])  # 수치형 열만
 df = df[df_numeric.sum(axis=1) > 0]          # 총합이 0인 행 제거
 
 df['rare_lang_list'] = df['rare_lang'].apply(lambda x: x.split(',') if x else [])
@@ -48,17 +46,25 @@ rare_matrix = mlb.fit_transform(df['rare_lang_list'])
 rare_df = pd.DataFrame(rare_matrix, columns=mlb.classes_, index=df.index)
 # 수치형 데이터와 병합
 df_final = pd.concat([df.drop(columns=['rare_lang', 'rare_lang_list']), rare_df], axis=1)
-# df_final.to_csv('C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/github/data/github_profiles_total_v2_test.csv', index=False)
+# df_final.to_csv('C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/github/data/github_profiles_total_v3_test.csv', index=False)
+df_final=df_final.drop(columns=['username'])
+# Explained Variance Ratio 누적합으로 Truncated SVD의 최적 차원 수 결정
+svd = TruncatedSVD(n_components=min(df_final.shape), random_state=42)
+svd.fit(df_final)
+plt.plot(np.cumsum(svd.explained_variance_ratio_))
+plt.xlabel("Number of components")
+plt.ylabel("Cumulative explained variance")
+plt.title("Truncated SVD - Explained Variance")
+plt.grid(True)
+plt.show()
 # 1. SVD로 차원 축소
-svd = TruncatedSVD(n_components=8, random_state=42)
-
+svd = TruncatedSVD(n_components=12, random_state=42)
 df_svd = svd.fit_transform(df_final)
 # #2D 시각화
 kmeans = KMeans(n_clusters=10, random_state=42)
 clusters = kmeans.fit_predict(df_svd)
 
 # 1. 클러스터 중심 (표준화 공간) → 역정규화
-
 cluster_centers_original = svd.inverse_transform(kmeans.cluster_centers_)
 
 # 2. 각 클러스터 중심에서 가장 큰 언어 (대표 언어)
@@ -118,13 +124,13 @@ for i in range(kmeans.n_clusters):
     mean_ratios_percent = mean_ratios / mean_ratios.sum() * 100
 
     # TOP3 언어만 시각화
-    top3_idx = np.argsort(mean_ratios_percent)[-3:][::-1]
+    top3_idx = np.argsort(mean_ratios_percent)[-5:][::-1]
     top3_langs = [df_final.columns[idx] for idx in top3_idx]
     top3_vals = [mean_ratios_percent.iloc[idx] for idx in top3_idx]
 
     plt.subplot(n_rows, n_cols, i + 1)
     plt.bar(top3_langs, top3_vals, color='skyblue')
-    plt.title(f"Cluster {i} TOP3 언어 비율(%)")
+    plt.title(f"Cluster {i} TOP5 언어 비율(%)")
     plt.ylabel("비율(%)")
     plt.xlabel("언어")
     plt.ylim(0, 100)
@@ -132,6 +138,21 @@ for i in range(kmeans.n_clusters):
 #여러 그래프 한 화면에 출력
 plt.show()
 
+# 4. 각 클러스터별 상위 사용자 출력
+top_n = 5
+print("\n=== 각 클러스터별 중심에 가까운 상위 5명 인덱스 ===")
+for i in range(kmeans.n_clusters):
+    cluster_indices = np.where(clusters == i)[0]
+    cluster_points = df_svd[cluster_indices]
+    center = kmeans.cluster_centers_[i]
+    # 중심과의 거리 계산
+    distances = cdist([center], cluster_points)[0]
+    # 거리 기준으로 정렬하여 상위 5명 인덱스 추출
+    top_indices = cluster_indices[np.argsort(distances)[:top_n]]
+    print(f"\nCluster {i} 대표 사용자:")
+    for rank, idx in enumerate(top_indices, 1):
+        username = df.iloc[idx]['username']
+        print(f"  {rank}. 인덱스: {idx}, username: {username}")
 #evaluation
 sum=0
 for i in range(kmeans.n_clusters):
