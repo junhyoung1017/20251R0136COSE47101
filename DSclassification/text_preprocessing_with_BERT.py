@@ -13,8 +13,10 @@ print("File loaded successfully.")
 # 열 이름에서 공백 제거
 df.columns = df.columns.str.strip()
 
-language_columns = df.columns[3:21]  # 언어 관련 컬럼들
+language_columns = df.columns[3:19]  # 언어 관련 컬럼들
 X_lang = df[language_columns].fillna(0).values  # NaN 방지
+
+# print(X_lang)
 
 # # 상위 몇 줄 확인
 # print(df.head())
@@ -44,10 +46,10 @@ print("Text preprocessing completed.")
 # print(X_text[:5])
 
 # BERT 모델을 사용하여 텍스트 임베딩 생성
-model = SentenceTransformer('all-MiniLM-L6-v2')  # 빠르고 성능 균형 좋음
+model = SentenceTransformer('all-mpnet-base-v2')  # 빠르고 성능 균형 좋음
 X_text_embed = model.encode(X_text, show_progress_bar=True)
 
-X_total = np.concatenate([X_lang, X_text_embed], axis=1)
+X_total = np.concatenate([X_lang, X_text_embed], axis=1).astype(np.float32)
 
 print("Text embedding completed.")
 
@@ -71,9 +73,12 @@ le = LabelEncoder()
 y_idx = le.fit_transform(df['stack'])
 y_onehot = make_onehot(y_idx, num_classes=len(le.classes_))
 
+for idx, stack_name in enumerate(le.classes_):
+    print(f"Index {idx}: {stack_name}")
+
 # npz 파일로 결과 저장
-np.save("X_total.npy", X_total)
-np.save("y_onehot.npy", y_onehot)
+np.save("X_total.npy", X_total.astype(np.float32))
+np.save("y_onehot.npy", y_onehot.astype(np.float32))
 
 print(y_onehot)  # 상위 5개 원-핫 벡터 확인
 
