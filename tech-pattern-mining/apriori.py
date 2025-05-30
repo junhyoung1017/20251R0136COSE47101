@@ -1,4 +1,7 @@
 import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
 from mlxtend.frequent_patterns import apriori, association_rules
 
 # 데이터 불러오기
@@ -27,3 +30,19 @@ rules = rules.sort_values(by='lift', ascending=False)
 print(frequent_itemsets_multi)
 print("\nTop Association Rules:")
 print(rules.head(20))
+
+
+# antecedents, consequents를 string으로 변환 (set → str)
+rules['antecedents_str'] = rules['antecedents'].apply(lambda x: ','.join(sorted(list(x))))
+rules['consequents_str'] = rules['consequents'].apply(lambda x: ','.join(sorted(list(x))))
+
+# pivot 테이블 생성 (여기서는 lift로 시각화)
+pivot_table = rules.pivot(index='antecedents_str', columns='consequents_str', values='lift')
+
+# Heatmap 그리기
+plt.figure(figsize=(12, 10))
+sns.heatmap(pivot_table, annot=True, fmt=".2f", cmap='YlGnBu')
+plt.title("Association Rules Heatmap (Lift)")
+plt.ylabel("Antecedents")
+plt.xlabel("Consequents")
+plt.show()
