@@ -1,11 +1,5 @@
 import fs from 'fs';
-import {
-  CSVInterface,
-  isLanguage,
-  LanguageCount,
-  languages,
-  UsersDataWithRepos,
-} from './types';
+import { CSVInterface, languages } from './types';
 
 async function main() {
   console.log('🚀 틀린 라벨링을 고쳐요!');
@@ -30,8 +24,6 @@ async function main() {
   let csvContent = `user_ID, username, repo_count, ${languages.join(
     ', '
   )}, text, stack, note\n`;
-
-  const result: CSVInterface[] = [];
 
   for (const line of lines.slice(1)) {
     const lineData = line.split(',');
