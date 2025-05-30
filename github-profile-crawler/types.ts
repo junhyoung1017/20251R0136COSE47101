@@ -29,6 +29,9 @@ export interface CSVInterface extends LanguageCount {
   username: string;
   userID: number;
   repoCount: number;
+  text: string;
+  stack: string;
+  note: string;
 }
 
 export interface GitHubUser {
