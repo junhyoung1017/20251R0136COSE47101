@@ -14,7 +14,7 @@ from collections import Counter
 import warnings
 from sklearn.decomposition import PCA
 from xgboost import XGBClassifier
-from sklearn.model_selection import GridSearchCV
+import joblib,os
 
 warnings.filterwarnings('ignore')
 
@@ -352,7 +352,7 @@ def visualize_results(results, mlb):
 
 def main():
     # 파일 경로 설정
-    pkl_path = 'C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/pkl_data/github_profiles_with_bert_processed_v2.pkl'
+    pkl_path = 'C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/20251R0136COSE47101/Kmeans/pkl_data/github_profiles_with_bert_processed_v2.pkl'
     
     try:
         # 1. 데이터 로드 및 탐색
@@ -415,7 +415,13 @@ def main():
             print(f"  예측: {pred_stacks}")
             print(f"  일치: {'✅' if len(set(true_stacks).intersection(set(pred_stacks))) > 0 else '❌'}")
             print()
-        
+         # 모델 저장 디렉토리 생성
+        model_save_path = 'C:/Users/jun01/OneDrive/바탕 화면/고려대/데과/TermProject/20251R0136COSE47101/Kmeans/pkl_data'
+        os.makedirs(model_save_path, exist_ok=True)
+
+        # 모델 저장 (예: best_model.pkl)
+        model_filename = f"{model_save_path}/best_model2_{best_model_name.replace(' ', '_')}.pkl"
+        joblib.dump(best_model, model_filename)
     except Exception as e:
         print(f"❌ 오류 발생: {e}")
         import traceback
