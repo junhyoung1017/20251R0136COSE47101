@@ -12,7 +12,9 @@
     "resume:csv": "npm run get-csv && npm run merge-data",
     "check-tokens": "npx ts-node ./checkTokens.ts",
     "get-repo-text": "npx ts-node ./getRepoText.ts",
-    "fix-miss-data": "npx ts-node ./fixMissData.ts"
+    "fix-miss-data": "npx ts-node ./fixMissData.ts",
+    "get-test-data": "npx ts-node ./getTestData.ts",
+    "get-awesome-users": "npx ts-node ./getAwesomeUsers.ts"
   },
   "keywords": [],
   "author": "",
