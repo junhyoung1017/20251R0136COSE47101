@@ -34,6 +34,20 @@ export interface CSVInterface extends LanguageCount {
   note: string;
 }
 
+export interface AwesomeUserInterface {
+  username: string;
+  userID: number;
+  repoCount: number;
+  stack: string;
+}
+
+export interface TestCSVInterface extends LanguageCount {
+  username: string;
+  userID: number;
+  repoCount: number;
+  text: string;
+}
+
 export interface GitHubUser {
   name?: string | null;
   email?: string | null;
