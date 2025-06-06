@@ -1,0 +1,6290 @@
+[
+  {
+    "username": "Jbartsch",
+    "userID": 1000006,
+    "repoCount": 15,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jgraber",
+    "userID": 1000022,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "jitendratheta",
+    "userID": 1000026,
+    "repoCount": 8,
+    "stack": "Server&System"
+  },
+  {
+    "username": "renwoox",
+    "userID": 1000077,
+    "repoCount": 17,
+    "stack": "Frontend"
+  },
+  {
+    "username": "vkorenev",
+    "userID": 1000082,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "po0ya",
+    "userID": 1000100,
+    "repoCount": 15,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "traneHead",
+    "userID": 1000113,
+    "repoCount": 11,
+    "stack": "iOS"
+  },
+  {
+    "username": "Stewartarmbrecht",
+    "userID": 1000121,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "anacnogueira",
+    "userID": 1000146,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "KostaCipo",
+    "userID": 1000159,
+    "repoCount": 18,
+    "stack": "System"
+  },
+  {
+    "username": "sinhan",
+    "userID": 1000193,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "AmineCherrai",
+    "userID": 1000203,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "justecorruptio",
+    "userID": 1000211,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "Naturaldoc",
+    "userID": 1000243,
+    "repoCount": 17,
+    "stack": "Frontend"
+  },
+  {
+    "username": "marcomedina",
+    "userID": 1000271,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "mknepprath",
+    "userID": 1000280,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "sdunham",
+    "userID": 1000292,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "fweng322",
+    "userID": 1000315,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "vladfatu",
+    "userID": 1000350,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "pianomanjh",
+    "userID": 1000354,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "astegmaier",
+    "userID": 1000369,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "xchechi123x",
+    "userID": 1000384,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "randyzhou",
+    "userID": 1000385,
+    "repoCount": 18,
+    "stack": "Server"
+  },
+  {
+    "username": "chris-ramon",
+    "userID": 1000404,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "guevaralb",
+    "userID": 1000406,
+    "repoCount": 16,
+    "stack": "Server"
+  },
+  {
+    "username": "junyuecao",
+    "userID": 1000408,
+    "repoCount": 15,
+    "stack": "Android"
+  },
+  {
+    "username": "ygmpkk",
+    "userID": 1000414,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "AhmadGhadiri",
+    "userID": 1000425,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jmif",
+    "userID": 1000442,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "isTravis",
+    "userID": 1000455,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "wbushey",
+    "userID": 1000469,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "michaelsabo",
+    "userID": 1000500,
+    "repoCount": 11,
+    "stack": "iOS"
+  },
+  {
+    "username": "chyyran",
+    "userID": 1000503,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "AtomSoftTech",
+    "userID": 1000520,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "vsjincai",
+    "userID": 1000523,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "lpaulger",
+    "userID": 1000544,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jeremyby",
+    "userID": 1000551,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "liangran10000",
+    "userID": 1000556,
+    "repoCount": 21,
+    "stack": "System"
+  },
+  {
+    "username": "rojanneo",
+    "userID": 1000557,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "whyzdev",
+    "userID": 1000581,
+    "repoCount": 14,
+    "stack": "System"
+  },
+  {
+    "username": "rogerluo",
+    "userID": 1000582,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "hermanocabral",
+    "userID": 1000585,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "relativist",
+    "userID": 1000593,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "javacspring",
+    "userID": 1000594,
+    "repoCount": 20,
+    "stack": "System"
+  },
+  {
+    "username": "ozyozyo",
+    "userID": 1000595,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "jjzhang",
+    "userID": 1000613,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "rash-pro",
+    "userID": 1000640,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "jlangston",
+    "userID": 1000648,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "azyobuzin",
+    "userID": 1000655,
+    "repoCount": 15,
+    "stack": "Server"
+  },
+  {
+    "username": "pmecho",
+    "userID": 1000659,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "ekoisa",
+    "userID": 1000662,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "javck",
+    "userID": 1000675,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "christor",
+    "userID": 1000680,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "zacharyhorvitz",
+    "userID": 1000692,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "BrandonJF",
+    "userID": 1000697,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "junoyoon",
+    "userID": 1000705,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "justinkchen",
+    "userID": 1000741,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "faceleg",
+    "userID": 1000759,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "fengshangshi",
+    "userID": 1000763,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "faisalchohan",
+    "userID": 1000769,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "zsxwing",
+    "userID": 1000778,
+    "repoCount": 14,
+    "stack": "System"
+  },
+  {
+    "username": "wuzhigang05",
+    "userID": 1000810,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "peterataylor",
+    "userID": 1000827,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "newpant",
+    "userID": 1000849,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "karanseq",
+    "userID": 1000853,
+    "repoCount": 10,
+    "stack": "Visualization"
+  },
+  {
+    "username": "fly1397",
+    "userID": 1000860,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "arthurliang",
+    "userID": 1000874,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "dberry37388",
+    "userID": 1000887,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "mbonani",
+    "userID": 1000934,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "lifanov",
+    "userID": 1000940,
+    "repoCount": 20,
+    "stack": "System"
+  },
+  {
+    "username": "lfx128",
+    "userID": 1000941,
+    "repoCount": 18,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "berendkleinhaneveld",
+    "userID": 1000968,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "kelixlabs",
+    "userID": 1000975,
+    "repoCount": 10,
+    "stack": "Frontend& Server"
+  },
+  {
+    "username": "shaula",
+    "userID": 1000979,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "szKarlen",
+    "userID": 1000997,
+    "repoCount": 16,
+    "stack": "System"
+  },
+  {
+    "username": "DT27",
+    "userID": 1001048,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "NikolaBreznjak",
+    "userID": 1001064,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "kaven276",
+    "userID": 1001080,
+    "repoCount": 15,
+    "stack": "Server"
+  },
+  {
+    "username": "niklas-sparfeld",
+    "userID": 1001092,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "abrn",
+    "userID": 10000001,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "EvansMatthew97",
+    "userID": 10000036,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "ningning992",
+    "userID": 10000164,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "sagarhedaoo",
+    "userID": 10000167,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "EskaelDev",
+    "userID": 10000207,
+    "repoCount": 14,
+    "stack": "System"
+  },
+  {
+    "username": "gitbufenshuo",
+    "userID": 10000318,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "badhitman",
+    "userID": 10000335,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "esther5576",
+    "userID": 10000396,
+    "repoCount": 9,
+    "stack": "Visualization"
+  },
+  {
+    "username": "SongJieCN",
+    "userID": 10000452,
+    "repoCount": 12,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "zhouming735",
+    "userID": 10000549,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "ixhorse",
+    "userID": 10000562,
+    "repoCount": 13,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "MikolajPieklo",
+    "userID": 10000604,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "JackeyGuo",
+    "userID": 10000640,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "zhuangdize",
+    "userID": 10000643,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "shoxive",
+    "userID": 10000689,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "poleha",
+    "userID": 10000838,
+    "repoCount": 8,
+    "stack": "Frontend& Server"
+  },
+  {
+    "username": "lucassanttoss",
+    "userID": 10000863,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "simon-greatrix",
+    "userID": 10000910,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "MikeDrewitt",
+    "userID": 10001042,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "w-felipe360",
+    "userID": 100000013,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "JOAO-LEE",
+    "userID": 100000031,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "AndrewKim09",
+    "userID": 100000367,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "SirChristianWilliam",
+    "userID": 100000473,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ShaiNachum",
+    "userID": 100000990,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ilyalyo",
+    "userID": 11000048,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "CalebeEmerick",
+    "userID": 11000135,
+    "repoCount": 13,
+    "stack": "iOS"
+  },
+  {
+    "username": "tytot",
+    "userID": 11000172,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ObiFenix",
+    "userID": 11000286,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "tyh0221",
+    "userID": 11000566,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "noifuji",
+    "userID": 11000579,
+    "repoCount": 13,
+    "stack": "Android"
+  },
+  {
+    "username": "zhy060307",
+    "userID": 11000693,
+    "repoCount": 10,
+    "stack": "Server&Android"
+  },
+  {
+    "username": "carsnwd",
+    "userID": 11000706,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "paulliu88",
+    "userID": 11000872,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "s4lvi",
+    "userID": 11000891,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "mantas84",
+    "userID": 11000895,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "JessDF",
+    "userID": 11000916,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "abhangu",
+    "userID": 11001020,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "christopherjenness",
+    "userID": 11001022,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "omartdh",
+    "userID": 12000002,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "NightHawk32",
+    "userID": 12000065,
+    "repoCount": 14,
+    "stack": "System"
+  },
+  {
+    "username": "RohilAniruth",
+    "userID": 12000166,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "0llamh",
+    "userID": 12000194,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "JinLisek",
+    "userID": 12000219,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "mateuscod88",
+    "userID": 12000258,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "RanchoDbest",
+    "userID": 12000313,
+    "repoCount": 12,
+    "stack": "Android"
+  },
+  {
+    "username": "dvitek",
+    "userID": 12000320,
+    "repoCount": 9,
+    "stack": "Android"
+  },
+  {
+    "username": "Swoodend",
+    "userID": 12000404,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "WenXin20",
+    "userID": 12000593,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "livingstone23",
+    "userID": 12000750,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "srnit",
+    "userID": 12000813,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "qixuanHou",
+    "userID": 12000834,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "LucasMessiasDev",
+    "userID": 12000879,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "NCarrasco",
+    "userID": 12000912,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "4lvin",
+    "userID": 12001026,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "millieyang",
+    "userID": 12001029,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "skl3",
+    "userID": 12001083,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "rlisboars",
+    "userID": 12001090,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Mrshcom",
+    "userID": 2000067,
+    "repoCount": 17,
+    "stack": "Frontend"
+  },
+  {
+    "username": "NathanNg",
+    "userID": 2000138,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "pjcollins",
+    "userID": 2000163,
+    "repoCount": 9,
+    "stack": "Android&iOS"
+  },
+  {
+    "username": "jflheureux",
+    "userID": 2000200,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "b-gran",
+    "userID": 2000233,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "vishalvisd",
+    "userID": 2000235,
+    "repoCount": 16,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Madhukarc",
+    "userID": 2000244,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "vicidroiddev",
+    "userID": 2000268,
+    "repoCount": 14,
+    "stack": "Android"
+  },
+  {
+    "username": "KFoxder",
+    "userID": 2000316,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "kreuz",
+    "userID": 2000336,
+    "repoCount": 18,
+    "stack": "Visualization"
+  },
+  {
+    "username": "GuiSim",
+    "userID": 2000390,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "Hurricos",
+    "userID": 2000409,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "leocongote",
+    "userID": 2000547,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "y-gagar1n",
+    "userID": 2000558,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "knzy",
+    "userID": 2000597,
+    "repoCount": 16,
+    "stack": "System"
+  },
+  {
+    "username": "rtighilt",
+    "userID": 2000605,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "mvdzel",
+    "userID": 2000608,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "goltech",
+    "userID": 2000647,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "GreenBeard",
+    "userID": 2000704,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "Polsaker",
+    "userID": 2000719,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "yousafgill",
+    "userID": 2000741,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "lagapollo",
+    "userID": 2000788,
+    "repoCount": 9,
+    "stack": "iOS"
+  },
+  {
+    "username": "rhatdan",
+    "userID": 2000835,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "wm8120",
+    "userID": 2000840,
+    "repoCount": 9,
+    "stack": "Android"
+  },
+  {
+    "username": "vladsandulescu",
+    "userID": 2000878,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "pekebyte",
+    "userID": 2000917,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "DILL44",
+    "userID": 2000931,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "RoelVdP",
+    "userID": 2000941,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "denismp",
+    "userID": 2000960,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "corinnaerin",
+    "userID": 2001071,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "squareleaf",
+    "userID": 2001078,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "cmetgher",
+    "userID": 2001125,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "dadviegas",
+    "userID": 2001156,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "alexanderhale",
+    "userID": 20000029,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "anulagarwal",
+    "userID": 20000162,
+    "repoCount": 16,
+    "stack": "Visualization"
+  },
+  {
+    "username": "RosaRend",
+    "userID": 20000251,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ttalcott",
+    "userID": 20000452,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "emartisoft",
+    "userID": 20000674,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "gringolalia",
+    "userID": 20000765,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "trevinwisaksana",
+    "userID": 20000813,
+    "repoCount": 10,
+    "stack": "iOS"
+  },
+  {
+    "username": "tejasvi-mehra",
+    "userID": 20000848,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "opejovic",
+    "userID": 20000869,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "rstaniek",
+    "userID": 20000873,
+    "repoCount": 12,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "DaveLuhman",
+    "userID": 20001039,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Zjie",
+    "userID": 3000016,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "xingyong",
+    "userID": 3000021,
+    "repoCount": 19,
+    "stack": "System"
+  },
+  {
+    "username": "forelid",
+    "userID": 3000049,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "Ax0ne",
+    "userID": 3000063,
+    "repoCount": 15,
+    "stack": "Server"
+  },
+  {
+    "username": "lucifer9",
+    "userID": 3000153,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "mtelka",
+    "userID": 3000173,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "CuihuaGu",
+    "userID": 3000179,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "kalamell",
+    "userID": 3000196,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "rodms10",
+    "userID": 3000200,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "notmahi",
+    "userID": 3000253,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "netizen539",
+    "userID": 3000262,
+    "repoCount": 9,
+    "stack": "Visualization"
+  },
+  {
+    "username": "cqyanbo",
+    "userID": 3000280,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "ginhom",
+    "userID": 3000284,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "trekhleb",
+    "userID": 3000285,
+    "repoCount": 14,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "badihi",
+    "userID": 3000290,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "chnhideyoshi",
+    "userID": 3000317,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "sysuyedong",
+    "userID": 3000332,
+    "repoCount": 15,
+    "stack": "Visualization"
+  },
+  {
+    "username": "starlog",
+    "userID": 3000339,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "kananMahmud",
+    "userID": 3000378,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "devperson",
+    "userID": 3000386,
+    "repoCount": 23,
+    "stack": "iOS&Android"
+  },
+  {
+    "username": "askbeka",
+    "userID": 3000474,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "oleg-nenashev",
+    "userID": 3000480,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "baqeryan",
+    "userID": 3000554,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "akatashkov",
+    "userID": 3000610,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "nelonoel",
+    "userID": 3000615,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "aspekt112",
+    "userID": 3000635,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "sirsir",
+    "userID": 3000677,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "eudyptula",
+    "userID": 3000701,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "Dzugaru",
+    "userID": 3000767,
+    "repoCount": 9,
+    "stack": "Visualization"
+  },
+  {
+    "username": "sarimabbas",
+    "userID": 3000809,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ducalpha",
+    "userID": 3000864,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "unreg",
+    "userID": 3000867,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "xugy0926",
+    "userID": 3000884,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "yonghoonwon",
+    "userID": 3000889,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "leomos",
+    "userID": 3001056,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "naveensing575",
+    "userID": 30000016,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "eclair-29",
+    "userID": 30000115,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "boclair-temgoua",
+    "userID": 30000204,
+    "repoCount": 17,
+    "stack": "Server"
+  },
+  {
+    "username": "dammynex",
+    "userID": 30000286,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "imdangodaane",
+    "userID": 30000308,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "MrGhostlyOrb",
+    "userID": 30000405,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "DuiBenErFen",
+    "userID": 30000597,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "zy84338719",
+    "userID": 30000714,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "zweros",
+    "userID": 30000746,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "Niuyuhang03",
+    "userID": 30000773,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "donia98",
+    "userID": 30000982,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "thomassuckow",
+    "userID": 3100037,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "iwannafly",
+    "userID": 3100076,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "mecolosimo",
+    "userID": 3100078,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "ichem",
+    "userID": 3100118,
+    "repoCount": 17,
+    "stack": "Server"
+  },
+  {
+    "username": "JohnCremona",
+    "userID": 3100137,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "jvd10",
+    "userID": 3100181,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "eugene-n",
+    "userID": 3100212,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "b-meson",
+    "userID": 3100220,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "zozoh94",
+    "userID": 3100264,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "ch-lee",
+    "userID": 3100303,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "dcbitman",
+    "userID": 3100306,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "hkleynhans",
+    "userID": 3100311,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "paulvee",
+    "userID": 3100354,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "juancjara",
+    "userID": 3100386,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "fred521",
+    "userID": 3100401,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "codetorex",
+    "userID": 3100430,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "sergio-zerg",
+    "userID": 3100585,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "sbiaudet",
+    "userID": 3100668,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "TinaXing2012",
+    "userID": 3100716,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "NQX",
+    "userID": 3100730,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "tsgouros",
+    "userID": 3100750,
+    "repoCount": 12,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "JustAboutJeff",
+    "userID": 3100810,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jeremistadler",
+    "userID": 3100817,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "oshingc",
+    "userID": 3100819,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "jackalhan",
+    "userID": 3100822,
+    "repoCount": 12,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "shry15harsh",
+    "userID": 3100980,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "vgorloff",
+    "userID": 3200080,
+    "repoCount": 12,
+    "stack": "iOS"
+  },
+  {
+    "username": "mdhtr",
+    "userID": 3200211,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "ignacioerrico",
+    "userID": 3200214,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "tvblomberg",
+    "userID": 3200233,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "sixdouglas",
+    "userID": 3200319,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "tonyroberts",
+    "userID": 3200395,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "Peragore",
+    "userID": 3200460,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "pck",
+    "userID": 3200503,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "jenspinney",
+    "userID": 3200507,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "dasjestyr",
+    "userID": 3200529,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "benjsmi",
+    "userID": 3200536,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "paulombweber",
+    "userID": 3200570,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "gyurobenjamin",
+    "userID": 3200573,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "jb9229",
+    "userID": 3200647,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "dpolivy",
+    "userID": 3200655,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "pisupat",
+    "userID": 3200662,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "volodymyr-rudyk",
+    "userID": 3200789,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "marcndev",
+    "userID": 3200844,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "sorieil",
+    "userID": 3200863,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "reposman33",
+    "userID": 3200870,
+    "repoCount": 16,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ancutamaria",
+    "userID": 4000049,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "gemarcano",
+    "userID": 4000062,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "JamesVanWaza",
+    "userID": 4000076,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "tasadar2",
+    "userID": 4000239,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "Textras",
+    "userID": 4000389,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "jjacob512",
+    "userID": 4000419,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "mikeg64",
+    "userID": 4000431,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "xavierjefferson",
+    "userID": 4000458,
+    "repoCount": 18,
+    "stack": "Server"
+  },
+  {
+    "username": "boregan",
+    "userID": 4000499,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "tekinarslan",
+    "userID": 4000512,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "btimo",
+    "userID": 4000576,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "mattmoniz",
+    "userID": 4000619,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "jotagesales",
+    "userID": 4000641,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "mcmonkey4eva",
+    "userID": 4000772,
+    "repoCount": 19,
+    "stack": "Server"
+  },
+  {
+    "username": "evanomondi",
+    "userID": 4000840,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "krruzic",
+    "userID": 4000854,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "shekenahglory",
+    "userID": 4000880,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "priceld",
+    "userID": 4000919,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "joytafty",
+    "userID": 4000924,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "Stoeoeoe",
+    "userID": 4000949,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "hendrysadrak",
+    "userID": 4000963,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "tlatt",
+    "userID": 4001004,
+    "repoCount": 13,
+    "stack": "Visualization"
+  },
+  {
+    "username": "raunakkumar",
+    "userID": 4001020,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "gotostack",
+    "userID": 4001026,
+    "repoCount": 16,
+    "stack": "Server"
+  },
+  {
+    "username": "matthewtraughber",
+    "userID": 4001068,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "gzepeda",
+    "userID": 4001077,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "leroro",
+    "userID": 4100017,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "abesamislyndon",
+    "userID": 4100030,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "stefcab",
+    "userID": 4100053,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jabinwang",
+    "userID": 4100121,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "jakauppila",
+    "userID": 4100127,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "hejiheji001",
+    "userID": 4100130,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "hsdk123",
+    "userID": 4100142,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "saruno",
+    "userID": 4100178,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "dotcink",
+    "userID": 4100215,
+    "repoCount": 9,
+    "stack": "Android"
+  },
+  {
+    "username": "euseibus",
+    "userID": 4100219,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "voidabhi",
+    "userID": 4100241,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "justforli",
+    "userID": 4100317,
+    "repoCount": 12,
+    "stack": "iOS"
+  },
+  {
+    "username": "saplmm",
+    "userID": 4100408,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "angelalonso",
+    "userID": 4100441,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "maheshbabubokkisam",
+    "userID": 4100454,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Imferal",
+    "userID": 4100554,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "davl3232",
+    "userID": 4100566,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "imjeen",
+    "userID": 4100582,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "davidduran94",
+    "userID": 4100591,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ripon23",
+    "userID": 4100691,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "chenjie26",
+    "userID": 4100700,
+    "repoCount": 15,
+    "stack": "Frontend"
+  },
+  {
+    "username": "pandanaran",
+    "userID": 4100726,
+    "repoCount": 21,
+    "stack": "Server"
+  },
+  {
+    "username": "taffy0908",
+    "userID": 4100770,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "dennislei",
+    "userID": 4100782,
+    "repoCount": 18,
+    "stack": "Frontend"
+  },
+  {
+    "username": "dkpure",
+    "userID": 4100832,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "Egbert11",
+    "userID": 4100842,
+    "repoCount": 12,
+    "stack": "Android"
+  },
+  {
+    "username": "maoshuai",
+    "userID": 4100858,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "goodstar",
+    "userID": 4100915,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "supperlitt",
+    "userID": 4100918,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "shahidkarimi",
+    "userID": 4100920,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "yorks",
+    "userID": 4100954,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "kJamesy",
+    "userID": 4100964,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "djcopley",
+    "userID": 4100965,
+    "repoCount": 11,
+    "stack": "iOS"
+  },
+  {
+    "username": "soullau",
+    "userID": 4100973,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "gogoxiaoxiao",
+    "userID": 4100988,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "calina-c",
+    "userID": 4101015,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "nmoehrle",
+    "userID": 4200007,
+    "repoCount": 10,
+    "stack": "System&Visualization"
+  },
+  {
+    "username": "shaozhuang",
+    "userID": 4200012,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "shakings",
+    "userID": 4200022,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "cettco",
+    "userID": 4200024,
+    "repoCount": 15,
+    "stack": "Android&Visualization"
+  },
+  {
+    "username": "iCodist",
+    "userID": 4200027,
+    "repoCount": 8,
+    "stack": "iOS"
+  },
+  {
+    "username": "cristi-zz",
+    "userID": 4200067,
+    "repoCount": 8,
+    "stack": "ML-Data&System"
+  },
+  {
+    "username": "1275381",
+    "userID": 4200079,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "theshubhamk",
+    "userID": 4200126,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "xendition",
+    "userID": 4200136,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "gallandarakhneorg",
+    "userID": 4200154,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "LiangMingyang",
+    "userID": 4200175,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "prateekchandan",
+    "userID": 4200178,
+    "repoCount": 17,
+    "stack": "Server"
+  },
+  {
+    "username": "GFxOx3JJ3CQR0RMy",
+    "userID": 4200207,
+    "repoCount": 15,
+    "stack": "System"
+  },
+  {
+    "username": "neilp666",
+    "userID": 4200244,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "AllenMcAfee",
+    "userID": 4200307,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "humanux",
+    "userID": 4200351,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "rahulpasunuri",
+    "userID": 4200453,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "trsiddiqui",
+    "userID": 4200469,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "bajdcc",
+    "userID": 4200516,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "qylsw",
+    "userID": 4200621,
+    "repoCount": 15,
+    "stack": "Android"
+  },
+  {
+    "username": "Wassimply",
+    "userID": 4200628,
+    "repoCount": 15,
+    "stack": "Android"
+  },
+  {
+    "username": "hmishinev",
+    "userID": 4200656,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "RichyMong",
+    "userID": 4200726,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "kientux",
+    "userID": 4200743,
+    "repoCount": 14,
+    "stack": "iOS"
+  },
+  {
+    "username": "pkoduganty",
+    "userID": 4200758,
+    "repoCount": 18,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "callebokedal",
+    "userID": 4200773,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "Tom-xyz",
+    "userID": 4200802,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "ai7hoo",
+    "userID": 4200808,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "vishnu12",
+    "userID": 4200831,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "llogiq",
+    "userID": 4200835,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "waldoalvarez00",
+    "userID": 4200854,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "zhaoguohui",
+    "userID": 4200885,
+    "repoCount": 9,
+    "stack": "iOS"
+  },
+  {
+    "username": "broftkd",
+    "userID": 4200890,
+    "repoCount": 15,
+    "stack": "System"
+  },
+  {
+    "username": "FreeSS",
+    "userID": 4200978,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "VijayKrishn",
+    "userID": 4201044,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "stavsap",
+    "userID": 4201054,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "nathanbirrell",
+    "userID": 4300215,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "morganwildermuth",
+    "userID": 4300267,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "stevenvdb",
+    "userID": 4300354,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "sunlchk",
+    "userID": 4300393,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "ganeshbandhu",
+    "userID": 4300469,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "abocquet",
+    "userID": 4300678,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "wellbeingWang",
+    "userID": 4300708,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "marekk11",
+    "userID": 4300910,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "golangfan",
+    "userID": 4300919,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "MilanNosal",
+    "userID": 4300958,
+    "repoCount": 9,
+    "stack": "iOS"
+  },
+  {
+    "username": "sparkison",
+    "userID": 4400104,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "omidkh68",
+    "userID": 4400137,
+    "repoCount": 17,
+    "stack": "Frontend"
+  },
+  {
+    "username": "yifeimichelle",
+    "userID": 4400142,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "joseboretto",
+    "userID": 4400172,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "DaleCam",
+    "userID": 4400216,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "mariojvargas",
+    "userID": 4400297,
+    "repoCount": 12,
+    "stack": "Visualization"
+  },
+  {
+    "username": "bastoker",
+    "userID": 4400328,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "kaktusas2598",
+    "userID": 4400363,
+    "repoCount": 10,
+    "stack": "Visualization"
+  },
+  {
+    "username": "TANJX",
+    "userID": 4400366,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "stady",
+    "userID": 4400400,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "krakendono",
+    "userID": 4400465,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "EdwardQuixote",
+    "userID": 4400512,
+    "repoCount": 16,
+    "stack": "Android"
+  },
+  {
+    "username": "hedii-mejri",
+    "userID": 4400520,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "crystaltiger",
+    "userID": 4400533,
+    "repoCount": 17,
+    "stack": "Android"
+  },
+  {
+    "username": "zmiguel",
+    "userID": 4400540,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "almutama",
+    "userID": 4400542,
+    "repoCount": 13,
+    "stack": "iOS"
+  },
+  {
+    "username": "Sohojoe",
+    "userID": 4400544,
+    "repoCount": 13,
+    "stack": "Visualization"
+  },
+  {
+    "username": "jnthnwn",
+    "userID": 4400604,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "ryanrolland",
+    "userID": 4400607,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "gravitate-dev",
+    "userID": 4400640,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "zozoiiiiii",
+    "userID": 4400812,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "eva01",
+    "userID": 4400814,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "AlbertTian",
+    "userID": 4400913,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "zhaoxiaoyunok",
+    "userID": 4400949,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "ChristopherTotty",
+    "userID": 4401033,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "buptbill220",
+    "userID": 4401047,
+    "repoCount": 16,
+    "stack": "System"
+  },
+  {
+    "username": "azeem-r00t",
+    "userID": 4401059,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "domino-jiang",
+    "userID": 4401084,
+    "repoCount": 14,
+    "stack": "System"
+  },
+  {
+    "username": "applebuddy",
+    "userID": 4410021,
+    "repoCount": 12,
+    "stack": "iOS"
+  },
+  {
+    "username": "marc-fischer",
+    "userID": 4410112,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "xiezhw3",
+    "userID": 4410143,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "jmonnette",
+    "userID": 4410150,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "Ger123",
+    "userID": 4410204,
+    "repoCount": 15,
+    "stack": "Android"
+  },
+  {
+    "username": "mpaarating",
+    "userID": 4410245,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "talebook",
+    "userID": 4410246,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "adrienbaron",
+    "userID": 4410247,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "huokele",
+    "userID": 4410293,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "Moiz-kz-Rajput",
+    "userID": 4410303,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "theONEdotnet",
+    "userID": 4410304,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "harleymacedo",
+    "userID": 4410339,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Augustyniak",
+    "userID": 4410346,
+    "repoCount": 15,
+    "stack": "iOS"
+  },
+  {
+    "username": "arovit",
+    "userID": 4410397,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "saihou",
+    "userID": 4410402,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "vyommani",
+    "userID": 4410404,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "LarchLiu",
+    "userID": 4410452,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "brunano21",
+    "userID": 4410485,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "BenanHamid",
+    "userID": 4410492,
+    "repoCount": 14,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "GengroHirano",
+    "userID": 4410516,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "aifa",
+    "userID": 4410529,
+    "repoCount": 13,
+    "stack": "Android"
+  },
+  {
+    "username": "mingyuzhao",
+    "userID": 4410586,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "gantners",
+    "userID": 4410625,
+    "repoCount": 17,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "JianbaoTao",
+    "userID": 4410636,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "gummie4444",
+    "userID": 4410648,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Hector-hedb12",
+    "userID": 4410771,
+    "repoCount": 12,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "virealer",
+    "userID": 4410772,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "Wysaat",
+    "userID": 4410787,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "tiltec",
+    "userID": 4410802,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "Siyet",
+    "userID": 4410812,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "HyperplaneOrg",
+    "userID": 4410836,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "budul100",
+    "userID": 4410841,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "ArlenWang",
+    "userID": 4410853,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "duncanunderwood",
+    "userID": 4410896,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "GK-1234",
+    "userID": 4410908,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "ethought",
+    "userID": 4410912,
+    "repoCount": 17,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ibosong",
+    "userID": 4411010,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "ClemensRobbenhaar",
+    "userID": 4411046,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "RCXLD",
+    "userID": 4417016,
+    "repoCount": 17,
+    "stack": "Server"
+  },
+  {
+    "username": "Anoyomouse",
+    "userID": 4417100,
+    "repoCount": 9,
+    "stack": "Visualization"
+  },
+  {
+    "username": "Terryhung",
+    "userID": 4417105,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "wshilin",
+    "userID": 4417111,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "purnimagupta",
+    "userID": 4417175,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ebi311",
+    "userID": 4417176,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "zhanghw0917",
+    "userID": 4417233,
+    "repoCount": 21,
+    "stack": "Android"
+  },
+  {
+    "username": "fabiophillip",
+    "userID": 4417273,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "akmerejf",
+    "userID": 4417318,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "JJponciano",
+    "userID": 4417328,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "JDantas",
+    "userID": 4417360,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "harrylincoln",
+    "userID": 4417381,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jaimetsuchiya",
+    "userID": 4417504,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "Roozle",
+    "userID": 4417510,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "adwitz",
+    "userID": 4417555,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "alexanderlukanin13",
+    "userID": 4417580,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "jaspervriends",
+    "userID": 4417659,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "AzureMarker",
+    "userID": 4417660,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "jatarifa",
+    "userID": 4417686,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "Charlesdoiron",
+    "userID": 4417717,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "typ0520",
+    "userID": 4417749,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "andycb",
+    "userID": 4417762,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "fdecaire",
+    "userID": 4417846,
+    "repoCount": 9,
+    "stack": "Visualization"
+  },
+  {
+    "username": "larry-kof",
+    "userID": 4417863,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "phuoc94",
+    "userID": 4417874,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "fangming221",
+    "userID": 4417918,
+    "repoCount": 16,
+    "stack": "Server"
+  },
+  {
+    "username": "zamberjo",
+    "userID": 4418005,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "Rossonero",
+    "userID": 4418036,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "phess101",
+    "userID": 4418062,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "tcombs",
+    "userID": 4418066,
+    "repoCount": 12,
+    "stack": "iOS"
+  },
+  {
+    "username": "idaho777",
+    "userID": 4418079,
+    "repoCount": 9,
+    "stack": "Visualization"
+  },
+  {
+    "username": "petermazuryk",
+    "userID": 44641436,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "AdeLuigi",
+    "userID": 44641613,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Hanekihyouka",
+    "userID": 44641661,
+    "repoCount": 10,
+    "stack": "Visualization"
+  },
+  {
+    "username": "dyooreen",
+    "userID": 44641690,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "RasoliDavide",
+    "userID": 44641701,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "marcocola01",
+    "userID": 44641719,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "GiulianiViviana",
+    "userID": 44641726,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "corradomarco",
+    "userID": 44641782,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Filiprogrammer",
+    "userID": 44641787,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "gabminamedez",
+    "userID": 44641830,
+    "repoCount": 8,
+    "stack": "iOS"
+  },
+  {
+    "username": "maksymdukov",
+    "userID": 44641890,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "MolodduwaGabriel",
+    "userID": 44641950,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jarekj9",
+    "userID": 44641985,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "ayodejipy",
+    "userID": 44641996,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Adeoti",
+    "userID": 44641997,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "belliamatteo",
+    "userID": 44642039,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Tagayan061994",
+    "userID": 44642041,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "JahidBasher",
+    "userID": 46488022,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "DocQMiner",
+    "userID": 46488192,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "djedou",
+    "userID": 46488203,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "dhruvaj-patil",
+    "userID": 46488345,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "wuguobiao",
+    "userID": 46488389,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "ilyassab",
+    "userID": 46488446,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "RTAgung",
+    "userID": 46488610,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "h2xff",
+    "userID": 46488703,
+    "repoCount": 10,
+    "stack": "Visualization"
+  },
+  {
+    "username": "NotCampeur",
+    "userID": 46488730,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "Gajanan-L-P",
+    "userID": 46488881,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "MartinJeanne",
+    "userID": 46488898,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "Sunny-jinn",
+    "userID": 49385170,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "KELVI23",
+    "userID": 49385184,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "maniizu3110",
+    "userID": 49385552,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "bmanikm",
+    "userID": 5000058,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "accessallow",
+    "userID": 5000086,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "elunna",
+    "userID": 5000096,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "wlyhdg",
+    "userID": 5000110,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "JonECG",
+    "userID": 5000135,
+    "repoCount": 12,
+    "stack": "Visualization"
+  },
+  {
+    "username": "shahab3",
+    "userID": 5000193,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "rllcoelho",
+    "userID": 5000206,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "ericatsydney",
+    "userID": 5000211,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "wladmis",
+    "userID": 5000261,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "robertwildman",
+    "userID": 5000325,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "jesus143",
+    "userID": 5000383,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "liamwang",
+    "userID": 5000396,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "AngusG",
+    "userID": 5000421,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "ColinMcNeil",
+    "userID": 5000430,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "marekstachura",
+    "userID": 5000526,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "tianya2010",
+    "userID": 5000542,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "lebedev",
+    "userID": 5000549,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "geanfelipe",
+    "userID": 5000613,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "tianxiaotouyuna",
+    "userID": 5000628,
+    "repoCount": 8,
+    "stack": "iOS"
+  },
+  {
+    "username": "devonEdison",
+    "userID": 5000640,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "jrrera",
+    "userID": 5000664,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jachinpy",
+    "userID": 5000700,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "xiaodekaixin",
+    "userID": 5000711,
+    "repoCount": 19,
+    "stack": "Server"
+  },
+  {
+    "username": "ciolt",
+    "userID": 5000732,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "hunix",
+    "userID": 5000739,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "cpyou",
+    "userID": 5000744,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "chengyuanheng",
+    "userID": 5000774,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "aarshpatel",
+    "userID": 5000775,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "walter504",
+    "userID": 5000809,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "marckregio",
+    "userID": 5000810,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "tonva",
+    "userID": 5000827,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "ahmedosman",
+    "userID": 5000829,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "elvis-epx",
+    "userID": 5000832,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "stvea",
+    "userID": 5000891,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "beta",
+    "userID": 5000910,
+    "repoCount": 9,
+    "stack": "Android&Frontend"
+  },
+  {
+    "username": "ttruongatl",
+    "userID": 5000972,
+    "repoCount": 14,
+    "stack": "Server&Frontend"
+  },
+  {
+    "username": "mqwu",
+    "userID": 5000991,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "bl4ckb0ne",
+    "userID": 5001005,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "zero12o",
+    "userID": 5001016,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ppk5457",
+    "userID": 5001048,
+    "repoCount": 18,
+    "stack": "Server"
+  },
+  {
+    "username": "taiqiang",
+    "userID": 5001062,
+    "repoCount": 20,
+    "stack": "Server"
+  },
+  {
+    "username": "y1yang0",
+    "userID": 5010047,
+    "repoCount": 16,
+    "stack": "System"
+  },
+  {
+    "username": "lsk2luke",
+    "userID": 5010088,
+    "repoCount": 21,
+    "stack": "Server"
+  },
+  {
+    "username": "a1c2n3g4w5",
+    "userID": 5010097,
+    "repoCount": 11,
+    "stack": "Android&Frontend"
+  },
+  {
+    "username": "Alex009",
+    "userID": 5010169,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "Drullkus",
+    "userID": 5010174,
+    "repoCount": 15,
+    "stack": "Visualization"
+  },
+  {
+    "username": "liutengjun",
+    "userID": 5010198,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "le-toan-mulodo",
+    "userID": 5010316,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "siyang814",
+    "userID": 5010370,
+    "repoCount": 9,
+    "stack": "Android"
+  },
+  {
+    "username": "evolarium",
+    "userID": 5010373,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "guzbarraf",
+    "userID": 5010387,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "thanadech",
+    "userID": 5010388,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "alec-heif",
+    "userID": 5010391,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "kakazuo",
+    "userID": 5010445,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "aqlu",
+    "userID": 5010463,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "zwxu999",
+    "userID": 5010496,
+    "repoCount": 14,
+    "stack": "Visualization"
+  },
+  {
+    "username": "dongjiang1989",
+    "userID": 5010507,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "ryderfang",
+    "userID": 5010519,
+    "repoCount": 11,
+    "stack": "iOS"
+  },
+  {
+    "username": "ljnalex",
+    "userID": 5010562,
+    "repoCount": 20,
+    "stack": "Android"
+  },
+  {
+    "username": "jinasonlin",
+    "userID": 5010606,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "JohannesDienst",
+    "userID": 5010638,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "shiguang1120",
+    "userID": 5010656,
+    "repoCount": 15,
+    "stack": "Server"
+  },
+  {
+    "username": "allenbyerly",
+    "userID": 5010696,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "bparida",
+    "userID": 5010782,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "somax",
+    "userID": 5010811,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "A-Miyabi",
+    "userID": 5010875,
+    "repoCount": 11,
+    "stack": "Frontend&Server"
+  },
+  {
+    "username": "zongtanghu",
+    "userID": 5010883,
+    "repoCount": 16,
+    "stack": "System"
+  },
+  {
+    "username": "dingshuangxi888",
+    "userID": 5010921,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "devinzou",
+    "userID": 5010935,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "Sargunan",
+    "userID": 5010960,
+    "repoCount": 12,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "unclemoney17",
+    "userID": 5010967,
+    "repoCount": 13,
+    "stack": "Android"
+  },
+  {
+    "username": "pgroene",
+    "userID": 5020041,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "canjian215215",
+    "userID": 5020064,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "Bitl",
+    "userID": 5020096,
+    "repoCount": 9,
+    "stack": "Visualization"
+  },
+  {
+    "username": "hadzypatel",
+    "userID": 5020121,
+    "repoCount": 18,
+    "stack": "Server"
+  },
+  {
+    "username": "kanzuka",
+    "userID": 5020163,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "FoghostCn",
+    "userID": 5020327,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "kiyoto-suzuki",
+    "userID": 5020335,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "chengtaoyuan",
+    "userID": 5020361,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "qiwx2012",
+    "userID": 5020425,
+    "repoCount": 16,
+    "stack": "Android"
+  },
+  {
+    "username": "byteTian",
+    "userID": 5020489,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "Dksword",
+    "userID": 5020525,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "jdem",
+    "userID": 5020534,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "lenardg",
+    "userID": 5020576,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "liubojiequan",
+    "userID": 5020592,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "elect86",
+    "userID": 5020626,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "ivanlhz",
+    "userID": 5020642,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "innoist",
+    "userID": 5020655,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "morningtea",
+    "userID": 5020671,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "cquezpro",
+    "userID": 5020713,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "xfworld",
+    "userID": 5020771,
+    "repoCount": 15,
+    "stack": "Server&Frontend"
+  },
+  {
+    "username": "atabakd",
+    "userID": 5020822,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "rakib07",
+    "userID": 5020864,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "akosek",
+    "userID": 5020881,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ser0ja",
+    "userID": 5020923,
+    "repoCount": 15,
+    "stack": "System"
+  },
+  {
+    "username": "iloverails",
+    "userID": 5020934,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "DancingAxolotl",
+    "userID": 5020980,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "Larsg310",
+    "userID": 5021026,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "qvbige240",
+    "userID": 5030026,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "binarytrojan",
+    "userID": 5030032,
+    "repoCount": 16,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ottodevs",
+    "userID": 5030059,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "Neptilo",
+    "userID": 5030061,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "t6tb7n",
+    "userID": 5030065,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "makotolusi",
+    "userID": 5030083,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "janblumenkamp",
+    "userID": 5030127,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "johnjenkins",
+    "userID": 5030133,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "fibz",
+    "userID": 5030134,
+    "repoCount": 13,
+    "stack": "Server&System"
+  },
+  {
+    "username": "glc12125",
+    "userID": 5030140,
+    "repoCount": 13,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "CaptainLu666",
+    "userID": 5030143,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "yushengding",
+    "userID": 5030144,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "yutianwu",
+    "userID": 5030187,
+    "repoCount": 15,
+    "stack": "System"
+  },
+  {
+    "username": "mytts",
+    "userID": 5030198,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "macleanpinto",
+    "userID": 5030218,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "11lin",
+    "userID": 5030232,
+    "repoCount": 13,
+    "stack": "Visualization"
+  },
+  {
+    "username": "kohr-h",
+    "userID": 5030250,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "jesdela",
+    "userID": 5030252,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "iMomen",
+    "userID": 5030329,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "androiddream",
+    "userID": 5030373,
+    "repoCount": 16,
+    "stack": "Android"
+  },
+  {
+    "username": "Ayodeji-O",
+    "userID": 5030402,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "nitmir",
+    "userID": 5030463,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "ntokozonkosi07",
+    "userID": 5030560,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "Ravend6",
+    "userID": 5030573,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "lubakka",
+    "userID": 5030587,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "PaulVelthuis93",
+    "userID": 5030617,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "felipegutierrez",
+    "userID": 5030696,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "emsansone",
+    "userID": 5030750,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "coloraven",
+    "userID": 5030800,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "Michael-81",
+    "userID": 5030831,
+    "repoCount": 17,
+    "stack": "Server"
+  },
+  {
+    "username": "quents",
+    "userID": 5030840,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "odkey",
+    "userID": 5030853,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "bnuz",
+    "userID": 5030962,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "DishaJindal",
+    "userID": 5030969,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "DAcodedBEAT",
+    "userID": 5031018,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "deepakrokz",
+    "userID": 5031034,
+    "repoCount": 22,
+    "stack": "Android"
+  },
+  {
+    "username": "carepack",
+    "userID": 5031077,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "chyj",
+    "userID": 5040006,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "ZephyrRaine",
+    "userID": 5040039,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "liyangready",
+    "userID": 5040076,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "khoandthcn",
+    "userID": 5040093,
+    "repoCount": 9,
+    "stack": "System&ML-Data"
+  },
+  {
+    "username": "gnishida",
+    "userID": 5040095,
+    "repoCount": 25,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "wuxinshui",
+    "userID": 5040102,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "thisismk",
+    "userID": 5040112,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "newnon",
+    "userID": 5040118,
+    "repoCount": 18,
+    "stack": "Android"
+  },
+  {
+    "username": "xxapp",
+    "userID": 5040144,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "yangxy112683",
+    "userID": 5040181,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "aircraft008",
+    "userID": 5040194,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "frankiethekneeman",
+    "userID": 5040202,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "zoleyda",
+    "userID": 5040280,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "mohammed-alsiddeeq",
+    "userID": 5040354,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "nadjieh",
+    "userID": 5040355,
+    "repoCount": 15,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "JC-Orozco",
+    "userID": 5040433,
+    "repoCount": 18,
+    "stack": "Frontend"
+  },
+  {
+    "username": "bxb1816",
+    "userID": 5040437,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "zhangzexdu",
+    "userID": 5040446,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "azeymur",
+    "userID": 5040464,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "ugogo",
+    "userID": 5040476,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "rickyRatfink",
+    "userID": 5040485,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "stevewarsa",
+    "userID": 5040532,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "gio02078017",
+    "userID": 5040544,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "feidaodalian",
+    "userID": 5040602,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "ArhumIshtiaq",
+    "userID": 5040609,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "feijoas",
+    "userID": 5040694,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "yaplej",
+    "userID": 5040706,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "dianors",
+    "userID": 5040724,
+    "repoCount": 8,
+    "stack": "Server&System"
+  },
+  {
+    "username": "terryttsai",
+    "userID": 5040739,
+    "repoCount": 9,
+    "stack": "Android"
+  },
+  {
+    "username": "cmusv-sc",
+    "userID": 5040753,
+    "repoCount": 18,
+    "stack": "Server"
+  },
+  {
+    "username": "cdkrot",
+    "userID": 5040764,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "marciocamollez",
+    "userID": 5040783,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "achalc",
+    "userID": 5040838,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "tjmgregory",
+    "userID": 5040901,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "oscaroceguera",
+    "userID": 5040939,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Maniarasan",
+    "userID": 5040969,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "frenchtoasters",
+    "userID": 5040983,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "MSIDoc",
+    "userID": 5041036,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "carpiediem",
+    "userID": 5041066,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Heverton",
+    "userID": 5041088,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "deblockt",
+    "userID": 5050163,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "Iliuminate",
+    "userID": 5050172,
+    "repoCount": 12,
+    "stack": "iOS"
+  },
+  {
+    "username": "bflopez",
+    "userID": 5050247,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "abrahambotros",
+    "userID": 5050259,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "mbdharan",
+    "userID": 5050338,
+    "repoCount": 12,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "mbuc",
+    "userID": 5050360,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "scolton99",
+    "userID": 5050363,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "hbh7",
+    "userID": 5050375,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "darksun190",
+    "userID": 5050437,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "rafaelfrancisco-dev",
+    "userID": 5050440,
+    "repoCount": 15,
+    "stack": "iOS"
+  },
+  {
+    "username": "ArchangelWTF",
+    "userID": 5050464,
+    "repoCount": 11,
+    "stack": "Server&Frontend"
+  },
+  {
+    "username": "tezizzm",
+    "userID": 5050479,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "vishwaparekh",
+    "userID": 5050484,
+    "repoCount": 13,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "elboman",
+    "userID": 5050488,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "spragucm",
+    "userID": 5050589,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "robinBakersSon",
+    "userID": 5050655,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "mtaran-google",
+    "userID": 5050719,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "MrBretze",
+    "userID": 5050734,
+    "repoCount": 10,
+    "stack": "Visualization"
+  },
+  {
+    "username": "rlklaser",
+    "userID": 5050756,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "wilberforce",
+    "userID": 5050824,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "glandu2",
+    "userID": 5050868,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "slash2314",
+    "userID": 5050916,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "Mahdi-Rom",
+    "userID": 5050925,
+    "repoCount": 18,
+    "stack": "Android"
+  },
+  {
+    "username": "seanfuture",
+    "userID": 5050950,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "markarenz",
+    "userID": 5051018,
+    "repoCount": 16,
+    "stack": "Frontend"
+  },
+  {
+    "username": "MarcoRabelo",
+    "userID": 5051027,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "Wizacorn",
+    "userID": 5060028,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "tommcgurl",
+    "userID": 5060039,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "pviniciusfm",
+    "userID": 5060081,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "Steven8519",
+    "userID": 5060100,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "abhiagx",
+    "userID": 5060127,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "devmapal",
+    "userID": 5060138,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "kimberli",
+    "userID": 5060161,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "tnkteja",
+    "userID": 5060181,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "senthilkungumaraj",
+    "userID": 5060186,
+    "repoCount": 12,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "renatofk",
+    "userID": 5060225,
+    "repoCount": 9,
+    "stack": "ML-Data&Server"
+  },
+  {
+    "username": "olegivo",
+    "userID": 5060253,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "ehanderson",
+    "userID": 5060312,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "bradencanderson",
+    "userID": 5060341,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "dferguson992",
+    "userID": 5060436,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "irhadkul",
+    "userID": 5060445,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "ms32035",
+    "userID": 5060473,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "aleksailic",
+    "userID": 5060493,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "britown88",
+    "userID": 5060561,
+    "repoCount": 13,
+    "stack": "Visualization"
+  },
+  {
+    "username": "starhacker",
+    "userID": 5060651,
+    "repoCount": 15,
+    "stack": "Server"
+  },
+  {
+    "username": "Koshenka27",
+    "userID": 5060666,
+    "repoCount": 9,
+    "stack": "iOS"
+  },
+  {
+    "username": "20SecondsToSun",
+    "userID": 5060686,
+    "repoCount": 13,
+    "stack": "Visualization"
+  },
+  {
+    "username": "mlg404",
+    "userID": 5060732,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "falconmutant",
+    "userID": 5060755,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "cpankow",
+    "userID": 5060774,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "PokeGuys",
+    "userID": 5060799,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "dfktv",
+    "userID": 5060818,
+    "repoCount": 16,
+    "stack": "Server"
+  },
+  {
+    "username": "koole",
+    "userID": 5060853,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "supermonk",
+    "userID": 5060860,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "ThatGeoGuy",
+    "userID": 5060863,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "ZereL",
+    "userID": 5060870,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "vitorhidalgo",
+    "userID": 5060883,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "beavis28",
+    "userID": 5060944,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "bingshi",
+    "userID": 5060995,
+    "repoCount": 23,
+    "stack": "Android"
+  },
+  {
+    "username": "ctzhang",
+    "userID": 5060997,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "xyd123",
+    "userID": 5061068,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "liverwang",
+    "userID": 5061095,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "learnercys",
+    "userID": 5070032,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "juner122king",
+    "userID": 5070085,
+    "repoCount": 15,
+    "stack": "Android"
+  },
+  {
+    "username": "YumeMichi",
+    "userID": 5070096,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "Naixor",
+    "userID": 5070106,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "lch277",
+    "userID": 5070146,
+    "repoCount": 17,
+    "stack": "Server"
+  },
+  {
+    "username": "xiaoyuanhu",
+    "userID": 5070152,
+    "repoCount": 13,
+    "stack": "Android"
+  },
+  {
+    "username": "mrzslr",
+    "userID": 5070181,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "sapradhan",
+    "userID": 5070211,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "deathswing",
+    "userID": 5070214,
+    "repoCount": 13,
+    "stack": "Android"
+  },
+  {
+    "username": "Jasonscor",
+    "userID": 5070216,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "ppbao",
+    "userID": 5070229,
+    "repoCount": 22,
+    "stack": "Frontend"
+  },
+  {
+    "username": "zyp001a",
+    "userID": 5070297,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "montymxb",
+    "userID": 5070304,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "chilauhe",
+    "userID": 5070325,
+    "repoCount": 19,
+    "stack": "Android"
+  },
+  {
+    "username": "haizhilin2013",
+    "userID": 5070345,
+    "repoCount": 16,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "morphemic420",
+    "userID": 5070353,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "danieldelgado",
+    "userID": 5070361,
+    "repoCount": 16,
+    "stack": "Server"
+  },
+  {
+    "username": "grassjelly",
+    "userID": 5070395,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "QuasimodoNZ",
+    "userID": 5070396,
+    "repoCount": 13,
+    "stack": "Server&Visualization"
+  },
+  {
+    "username": "Wakonda",
+    "userID": 5070399,
+    "repoCount": 18,
+    "stack": "Server"
+  },
+  {
+    "username": "weizijun",
+    "userID": 5070449,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "clxiong",
+    "userID": 5070455,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "SiriusHu",
+    "userID": 5070506,
+    "repoCount": 12,
+    "stack": "Hmm"
+  },
+  {
+    "username": "lpmi-13",
+    "userID": 5070516,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "hitbear518",
+    "userID": 5070531,
+    "repoCount": 12,
+    "stack": "Frontend&Server"
+  },
+  {
+    "username": "acsadam0404",
+    "userID": 5070542,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "WangChengCheng",
+    "userID": 5070572,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "xhk",
+    "userID": 5070581,
+    "repoCount": 18,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "kingchc",
+    "userID": 5070598,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "zhonghualangcai",
+    "userID": 5070625,
+    "repoCount": 18,
+    "stack": "Android"
+  },
+  {
+    "username": "lawlielt",
+    "userID": 5070647,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "gaozhenpeng",
+    "userID": 5070667,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "zyl409214686",
+    "userID": 5070697,
+    "repoCount": 12,
+    "stack": "Android"
+  },
+  {
+    "username": "caijf",
+    "userID": 5070722,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "mehrandvd",
+    "userID": 5070766,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "cyj0921",
+    "userID": 5070776,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "LukeFung",
+    "userID": 5070807,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "Lemonsu",
+    "userID": 5070817,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "JJscott",
+    "userID": 5070852,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "pyshcoder",
+    "userID": 5070865,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "kmno",
+    "userID": 5070931,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "TheAhmadOsman",
+    "userID": 5070954,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "ztyoung86",
+    "userID": 5070976,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "baoyun20",
+    "userID": 5070992,
+    "repoCount": 14,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "machard",
+    "userID": 5071029,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "EvianTan",
+    "userID": 5071040,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jonathanco",
+    "userID": 5080008,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "xcchcaptain",
+    "userID": 5080022,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "dougxc",
+    "userID": 5080087,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "rgannu",
+    "userID": 5080106,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "mediabuff",
+    "userID": 5080114,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "plfyt",
+    "userID": 5080134,
+    "repoCount": 16,
+    "stack": "Visualization"
+  },
+  {
+    "username": "ionuttamas",
+    "userID": 5080185,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "Devindik",
+    "userID": 5080187,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "amirpouya",
+    "userID": 5080188,
+    "repoCount": 14,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "devanshdalal",
+    "userID": 5080310,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "thruthesky",
+    "userID": 5080329,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "godguy213",
+    "userID": 5080336,
+    "repoCount": 9,
+    "stack": "Android"
+  },
+  {
+    "username": "mzhang-code",
+    "userID": 5080397,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "JoaoLReis",
+    "userID": 5080400,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "perhapsatron",
+    "userID": 5080495,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "chrischoy",
+    "userID": 5080549,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "mitosu",
+    "userID": 5080571,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "pavankumar-patruni",
+    "userID": 5080592,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "nrkumar93",
+    "userID": 5080639,
+    "repoCount": 18,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "ciumonk",
+    "userID": 5080642,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "fontinixxl",
+    "userID": 5080665,
+    "repoCount": 10,
+    "stack": "Visualization"
+  },
+  {
+    "username": "Austriker",
+    "userID": 5080705,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "FrancoisBotha",
+    "userID": 5080823,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "glennreyes",
+    "userID": 5080854,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "xiaoyangxie",
+    "userID": 5080874,
+    "repoCount": 21,
+    "stack": "Server"
+  },
+  {
+    "username": "shubhamjain0594",
+    "userID": 5080900,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "fmongarex",
+    "userID": 5080918,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "ol100",
+    "userID": 5080925,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "xwm111",
+    "userID": 5080932,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "suntinghui",
+    "userID": 5080940,
+    "repoCount": 17,
+    "stack": "Android"
+  },
+  {
+    "username": "minipaintf",
+    "userID": 5080964,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "tongjieyi",
+    "userID": 5080996,
+    "repoCount": 15,
+    "stack": "Server"
+  },
+  {
+    "username": "preparing",
+    "userID": 5081012,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "oriolarcas",
+    "userID": 5081071,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "ning1022",
+    "userID": 5090092,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "sfzhang",
+    "userID": 5090104,
+    "repoCount": 9,
+    "stack": "Visualization"
+  },
+  {
+    "username": "adamaverycole",
+    "userID": 5090119,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "PuspenduBanerjee",
+    "userID": 5090152,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "emalikterzi",
+    "userID": 5090157,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "soy502636321",
+    "userID": 5090176,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "amsathishkumar",
+    "userID": 5090243,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "z-mojomoji",
+    "userID": 5090332,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "GrieferAtWork",
+    "userID": 5090345,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "fansi",
+    "userID": 5090389,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "tmoreton",
+    "userID": 5090418,
+    "repoCount": 15,
+    "stack": "Frontend"
+  },
+  {
+    "username": "qplot",
+    "userID": 5090435,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "heliopas",
+    "userID": 5090500,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "kyri33",
+    "userID": 5090507,
+    "repoCount": 13,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "lopes83",
+    "userID": 5090547,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "JasonPuglisi",
+    "userID": 5090549,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "JohnnyLChang",
+    "userID": 5090551,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "code-hippo",
+    "userID": 5090556,
+    "repoCount": 9,
+    "stack": "Android"
+  },
+  {
+    "username": "kumarryogeshh",
+    "userID": 5090566,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jarredwitt",
+    "userID": 5090577,
+    "repoCount": 14,
+    "stack": "Frontend"
+  },
+  {
+    "username": "BlakeWL",
+    "userID": 5090581,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "panzerdev",
+    "userID": 5090631,
+    "repoCount": 15,
+    "stack": "Server"
+  },
+  {
+    "username": "therinken",
+    "userID": 5090714,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "onlinecco",
+    "userID": 5090739,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "nfilipov",
+    "userID": 5090801,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "AkhilSharma1",
+    "userID": 5090864,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "NicholasTaylor",
+    "userID": 5090924,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "vincent-pradeilles",
+    "userID": 5090957,
+    "repoCount": 12,
+    "stack": "iOS"
+  },
+  {
+    "username": "mgn2486",
+    "userID": 5091009,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "Doccrazy",
+    "userID": 5091018,
+    "repoCount": 18,
+    "stack": "Visualization"
+  },
+  {
+    "username": "rafaelclaycon",
+    "userID": 5100081,
+    "repoCount": 12,
+    "stack": "iOS"
+  },
+  {
+    "username": "Noremac201",
+    "userID": 5100085,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "shaunburdick",
+    "userID": 5100175,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "DXZ",
+    "userID": 5100222,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "praduca",
+    "userID": 5100238,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "brycehutchings",
+    "userID": 5100250,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "andyault",
+    "userID": 5100255,
+    "repoCount": 15,
+    "stack": "Server"
+  },
+  {
+    "username": "davidwillianx",
+    "userID": 5100338,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Javas01",
+    "userID": 5100345,
+    "repoCount": 16,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Edwinzero",
+    "userID": 5100412,
+    "repoCount": 18,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "QhelDIV",
+    "userID": 5100481,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "liugang1014",
+    "userID": 5100512,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "atom2ueki",
+    "userID": 5100535,
+    "repoCount": 9,
+    "stack": "iOS"
+  },
+  {
+    "username": "Abirdcfly",
+    "userID": 5100555,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "juntaki",
+    "userID": 5100568,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "HeyGarrison",
+    "userID": 5100597,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "mczha",
+    "userID": 5100615,
+    "repoCount": 9,
+    "stack": "Android"
+  },
+  {
+    "username": "scott-vsi",
+    "userID": 5100631,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "SamerKhokon",
+    "userID": 5100656,
+    "repoCount": 17,
+    "stack": "Server"
+  },
+  {
+    "username": "SecsAndCyber",
+    "userID": 5100682,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "jjrasche",
+    "userID": 5100706,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Alienero",
+    "userID": 5100733,
+    "repoCount": 14,
+    "stack": "System"
+  },
+  {
+    "username": "BrainBalaka",
+    "userID": 5100736,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "chenyunchen",
+    "userID": 5100757,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "f-akazawa",
+    "userID": 5100793,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "a402100842",
+    "userID": 5100812,
+    "repoCount": 9,
+    "stack": "Android"
+  },
+  {
+    "username": "gitqwerty777",
+    "userID": 5100837,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "fzql",
+    "userID": 5100887,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "vovietanh",
+    "userID": 5100890,
+    "repoCount": 15,
+    "stack": "System"
+  },
+  {
+    "username": "wilsonlmh",
+    "userID": 5100899,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "LazizEx",
+    "userID": 5100957,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "hbhdytf",
+    "userID": 5100994,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "piyushpk89",
+    "userID": 5101001,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "tarugo07",
+    "userID": 5101034,
+    "repoCount": 15,
+    "stack": "Server"
+  },
+  {
+    "username": "jrcinformatico",
+    "userID": 5101057,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "CyanSalt",
+    "userID": 5101076,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Wyndala",
+    "userID": 5200009,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "mkjiau",
+    "userID": 5200038,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "Horscontexte",
+    "userID": 5200061,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "AsoStrife",
+    "userID": 5200080,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "Veuge",
+    "userID": 5200174,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "victor-mesquita",
+    "userID": 5200285,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "drojkind",
+    "userID": 5200290,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "mpvader",
+    "userID": 5200296,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "oagbulut",
+    "userID": 5200304,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "dsullivan7",
+    "userID": 5200410,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "fish2tiger-zz",
+    "userID": 5200417,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "talyian",
+    "userID": 5200436,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "sobreira",
+    "userID": 5200448,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "zyqlzr",
+    "userID": 5200497,
+    "repoCount": 13,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "kneitinger",
+    "userID": 5200550,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "vaskaloidis",
+    "userID": 5200569,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "maxsteciuk",
+    "userID": 5200586,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "chrillomat",
+    "userID": 5200596,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "Satooo",
+    "userID": 5200641,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "DannyCrews",
+    "userID": 5200687,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "jloveric",
+    "userID": 5200721,
+    "repoCount": 16,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "jason-klein",
+    "userID": 5200725,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "hwwh1999",
+    "userID": 5200780,
+    "repoCount": 17,
+    "stack": "Hmm"
+  },
+  {
+    "username": "rcastro2",
+    "userID": 5200824,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "DivineEnder",
+    "userID": 5200848,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "darkzdiez",
+    "userID": 5200859,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "freilind",
+    "userID": 5200890,
+    "repoCount": 15,
+    "stack": "Frontend&Server"
+  },
+  {
+    "username": "penbor",
+    "userID": 5200906,
+    "repoCount": 18,
+    "stack": "Server"
+  },
+  {
+    "username": "aguaviva",
+    "userID": 5200915,
+    "repoCount": 10,
+    "stack": "Android&Server"
+  },
+  {
+    "username": "krishpavan",
+    "userID": 5200951,
+    "repoCount": 14,
+    "stack": "System"
+  },
+  {
+    "username": "olavosamp",
+    "userID": 5201016,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "ersuamkb",
+    "userID": 5201044,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "peiqiang",
+    "userID": 5201056,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "yoj",
+    "userID": 5201070,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "jungin500",
+    "userID": 5201073,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "sparkfengbo",
+    "userID": 5201080,
+    "repoCount": 12,
+    "stack": "Android"
+  },
+  {
+    "username": "cyberlord-007",
+    "userID": 58812239,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "iamthaoly",
+    "userID": 58812503,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "mxmaria",
+    "userID": 58812838,
+    "repoCount": 10,
+    "stack": "iOS"
+  },
+  {
+    "username": "vladsomai",
+    "userID": 58813056,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "fanchengsheng",
+    "userID": 6000011,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "aaqqxx",
+    "userID": 6000047,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "srascar",
+    "userID": 6000134,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "clemkoa",
+    "userID": 6000142,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "andreihaidu",
+    "userID": 6000246,
+    "repoCount": 12,
+    "stack": "Visualization"
+  },
+  {
+    "username": "bhrener",
+    "userID": 6000256,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "ReinierKoops",
+    "userID": 6000295,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "lukasniemeier",
+    "userID": 6000340,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "Nimako",
+    "userID": 6000341,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "ddatta",
+    "userID": 6000342,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "tzjzqw",
+    "userID": 6000350,
+    "repoCount": 16,
+    "stack": "Android"
+  },
+  {
+    "username": "jeswinsimon",
+    "userID": 6000369,
+    "repoCount": 13,
+    "stack": "Frontend"
+  },
+  {
+    "username": "GriwMF",
+    "userID": 6000392,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "Abdelhamidhenni",
+    "userID": 6000419,
+    "repoCount": 14,
+    "stack": "Server"
+  },
+  {
+    "username": "malek0512",
+    "userID": 6000420,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "kjahed",
+    "userID": 6000421,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "pjhwan92",
+    "userID": 6000449,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "josemduarte",
+    "userID": 6000474,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "carrierlxk",
+    "userID": 6000486,
+    "repoCount": 13,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "Humberfrench",
+    "userID": 6000496,
+    "repoCount": 12,
+    "stack": "System"
+  },
+  {
+    "username": "leejo945",
+    "userID": 6000501,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "clement-moulin-frier",
+    "userID": 6000622,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "pandyxu",
+    "userID": 6000626,
+    "repoCount": 15,
+    "stack": "System"
+  },
+  {
+    "username": "yinguilong",
+    "userID": 6000710,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "gaxking",
+    "userID": 6000722,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "hamking",
+    "userID": 6000738,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "dmitrio95",
+    "userID": 6000747,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "mrhippo",
+    "userID": 6000763,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "LSERRE",
+    "userID": 6000768,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "xyzlf",
+    "userID": 6000780,
+    "repoCount": 8,
+    "stack": "Android"
+  },
+  {
+    "username": "taherelhossin",
+    "userID": 6000822,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "breenbob",
+    "userID": 6000851,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "aminkh17",
+    "userID": 6000852,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "clzhao",
+    "userID": 6000857,
+    "repoCount": 14,
+    "stack": "System"
+  },
+  {
+    "username": "yzw124",
+    "userID": 6000863,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "NatanJMai",
+    "userID": 6000870,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "jodogne",
+    "userID": 6000889,
+    "repoCount": 13,
+    "stack": "System"
+  },
+  {
+    "username": "Jeff-Lv",
+    "userID": 6000915,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "abradle",
+    "userID": 6000929,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "vampire44",
+    "userID": 6000930,
+    "repoCount": 18,
+    "stack": "Server"
+  },
+  {
+    "username": "alphatsai",
+    "userID": 6000932,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "RoberTnf",
+    "userID": 6000936,
+    "repoCount": 9,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "idansc",
+    "userID": 6000968,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "zigrivers",
+    "userID": 6001051,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "Junior91323",
+    "userID": 6001064,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "langkcc",
+    "userID": 6001082,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "wingkitlee0",
+    "userID": 7000003,
+    "repoCount": 12,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "wqyun",
+    "userID": 7000062,
+    "repoCount": 8,
+    "stack": "System"
+  },
+  {
+    "username": "liqingqiya",
+    "userID": 7000112,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "ruipimentelfigueiredo",
+    "userID": 7000119,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "brave3d",
+    "userID": 7000144,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "emma-cai",
+    "userID": 7000159,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "luoxinran28",
+    "userID": 7000182,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "dbpprt",
+    "userID": 7000188,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "schnip",
+    "userID": 7000190,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "smartyuge",
+    "userID": 7000305,
+    "repoCount": 21,
+    "stack": "Android"
+  },
+  {
+    "username": "glouw",
+    "userID": 7000616,
+    "repoCount": 11,
+    "stack": "System"
+  },
+  {
+    "username": "Humayon",
+    "userID": 7000637,
+    "repoCount": 11,
+    "stack": "Frontend"
+  },
+  {
+    "username": "thunderpants",
+    "userID": 7000641,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "LukeLinXu",
+    "userID": 7000675,
+    "repoCount": 10,
+    "stack": "Android"
+  },
+  {
+    "username": "nicolo-ribaudo",
+    "userID": 7000710,
+    "repoCount": 9,
+    "stack": "Frontend&Server"
+  },
+  {
+    "username": "lastmjs",
+    "userID": 7000719,
+    "repoCount": 8,
+    "stack": "Frontend&Server&System"
+  },
+  {
+    "username": "maitrenem",
+    "userID": 7000720,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "cjrumble",
+    "userID": 7000949,
+    "repoCount": 24,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "0V",
+    "userID": 7000978,
+    "repoCount": 10,
+    "stack": "Visualization"
+  },
+  {
+    "username": "Calc86",
+    "userID": 7000986,
+    "repoCount": 16,
+    "stack": "Android"
+  },
+  {
+    "username": "liyajieGit",
+    "userID": 7001000,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "jamiefang",
+    "userID": 7001013,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "cpapalardo",
+    "userID": 7001042,
+    "repoCount": 8,
+    "stack": "Frontend&Server"
+  },
+  {
+    "username": "yyzybb537",
+    "userID": 7001047,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "yoyonel",
+    "userID": 7001058,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "Lukasavicus",
+    "userID": 8000051,
+    "repoCount": 13,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "ashokkumar9892",
+    "userID": 8000169,
+    "repoCount": 12,
+    "stack": "Server"
+  },
+  {
+    "username": "jnkroeker",
+    "userID": 8000193,
+    "repoCount": 8,
+    "stack": "Server"
+  },
+  {
+    "username": "man0a",
+    "userID": 8000202,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "archimy",
+    "userID": 8000253,
+    "repoCount": 8,
+    "stack": "Visualization"
+  },
+  {
+    "username": "iamrob-nl",
+    "userID": 8000315,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "richardsheridan",
+    "userID": 8000454,
+    "repoCount": 11,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "adynathos",
+    "userID": 8000512,
+    "repoCount": 13,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "bitholic",
+    "userID": 8000548,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "monkeyman192",
+    "userID": 8000597,
+    "repoCount": 11,
+    "stack": "Visualization"
+  },
+  {
+    "username": "Goose1451",
+    "userID": 8000615,
+    "repoCount": 16,
+    "stack": "System"
+  },
+  {
+    "username": "birkschmithuesen",
+    "userID": 8000653,
+    "repoCount": 9,
+    "stack": "Visualization"
+  },
+  {
+    "username": "WEBMOVER",
+    "userID": 8000675,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "shutterbug2000",
+    "userID": 8000700,
+    "repoCount": 16,
+    "stack": "System"
+  },
+  {
+    "username": "mhegazy",
+    "userID": 8000722,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "xanril",
+    "userID": 8000757,
+    "repoCount": 8,
+    "stack": "iOS"
+  },
+  {
+    "username": "Zahidul-Islam",
+    "userID": 8000808,
+    "repoCount": 10,
+    "stack": "Frontend"
+  },
+  {
+    "username": "yhvicey",
+    "userID": 8000820,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "liuts",
+    "userID": 8000832,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "mrcaptainoak",
+    "userID": 8000873,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "tttony3",
+    "userID": 8000890,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "SteveBenz",
+    "userID": 8000932,
+    "repoCount": 15,
+    "stack": "Visualization&Frontend&Server"
+  },
+  {
+    "username": "jk-ozlabs",
+    "userID": 8000933,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "aNutForAJarOfTuna",
+    "userID": 8000968,
+    "repoCount": 14,
+    "stack": "System"
+  },
+  {
+    "username": "JohnRyanTsai",
+    "userID": 8001059,
+    "repoCount": 11,
+    "stack": "Android"
+  },
+  {
+    "username": "MelanieMassey",
+    "userID": 87302216,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "tranhuuvinh1109",
+    "userID": 87302636,
+    "repoCount": 10,
+    "stack": "Server"
+  },
+  {
+    "username": "maricd7",
+    "userID": 87302839,
+    "repoCount": 12,
+    "stack": "Frontend"
+  },
+  {
+    "username": "shivajah",
+    "userID": 9000098,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "furkle",
+    "userID": 9000099,
+    "repoCount": 10,
+    "stack": "System"
+  },
+  {
+    "username": "GoneUp",
+    "userID": 9000102,
+    "repoCount": 16,
+    "stack": "System"
+  },
+  {
+    "username": "yargo11",
+    "userID": 9000273,
+    "repoCount": 17,
+    "stack": "Frontend"
+  },
+  {
+    "username": "weltond",
+    "userID": 9000286,
+    "repoCount": 10,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "EthanYueZhao",
+    "userID": 9000319,
+    "repoCount": 9,
+    "stack": "Visualization&Frontend&Server"
+  },
+  {
+    "username": "DaveCS1",
+    "userID": 9000337,
+    "repoCount": 9,
+    "stack": "System"
+  },
+  {
+    "username": "fnnbrr",
+    "userID": 9000395,
+    "repoCount": 10,
+    "stack": "Visualization"
+  },
+  {
+    "username": "ormaza",
+    "userID": 9000420,
+    "repoCount": 9,
+    "stack": "System&Server"
+  },
+  {
+    "username": "yepster1",
+    "userID": 9000435,
+    "repoCount": 9,
+    "stack": "Frontend"
+  },
+  {
+    "username": "thebentern",
+    "userID": 9000580,
+    "repoCount": 9,
+    "stack": "Server"
+  },
+  {
+    "username": "malharteli",
+    "userID": 9000619,
+    "repoCount": 11,
+    "stack": "Server"
+  },
+  {
+    "username": "rebeccamoraes",
+    "userID": 9000648,
+    "repoCount": 13,
+    "stack": "Server"
+  },
+  {
+    "username": "andreiho",
+    "userID": 9000674,
+    "repoCount": 8,
+    "stack": "Frontend"
+  },
+  {
+    "username": "darren-clark",
+    "userID": 9000803,
+    "repoCount": 18,
+    "stack": "System"
+  },
+  {
+    "username": "isaacvandor",
+    "userID": 9000810,
+    "repoCount": 8,
+    "stack": "ML-Data"
+  },
+  {
+    "username": "markmckinnon",
+    "userID": 9000844,
+    "repoCount": 16,
+    "stack": "System"
+  },
+  {
+    "username": "ChristianHur",
+    "userID": 9000955,
+    "repoCount": 8,
+    "stack": "Frontend"
+  }
+]
