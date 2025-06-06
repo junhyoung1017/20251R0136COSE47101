@@ -113,14 +113,14 @@ def create_language_features(df: pd.DataFrame, language_columns: List[str]) -> p
         df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
     
     # 1. 총 코드 라인 수
-    df['total_lines'] = df[language_columns].sum(axis=1)
+    total_lines=df[language_columns].sum(axis=1)
     
     # 2. 사용 언어 개수
     df['num_languages'] = (df[language_columns] > 0).sum(axis=1)
     
     # 3. 주력 언어 (가장 많이 사용한 언어)
     df['main_language_idx'] = df[language_columns].idxmax(axis=1)
-    df['main_language_ratio'] = df[language_columns].max(axis=1) / (df['total_lines'] + 1e-6)
+    df['main_language_ratio'] = df[language_columns].max(axis=1) / (total_lines + 1e-6)
     
     # 4. 언어 다양성 지수 (Shannon entropy) - 개선된 버전
     def calculate_diversity(row):
@@ -153,10 +153,10 @@ def create_language_features(df: pd.DataFrame, language_columns: List[str]) -> p
     df['language_diversity'] = df.apply(calculate_diversity, axis=1)
     
     # 5. Frontend/Backend/Others 비율 (실제 언어 기반)
-    frontend_langs = ['JavaScript', 'TypeScript'] 
+    frontend_langs = ['JS'] 
     backend_langs = ['Python', 'Java', 'C++', 'C#', 'Go', 'PHP', 'Ruby']
     mobile_langs = ['Swift', 'Kotlin', 'Dart']
-    system_langs = ['C', 'C++', 'Rust', 'Assembly']
+    system_langs = ['C/C++', 'Rust', 'Assembly']
     
     frontend_cols = [col for col in frontend_langs if col in language_columns]
     backend_cols = [col for col in backend_langs if col in language_columns]
@@ -164,22 +164,22 @@ def create_language_features(df: pd.DataFrame, language_columns: List[str]) -> p
     system_cols = [col for col in system_langs if col in language_columns]
     
     if frontend_cols:
-        df['frontend_lang_ratio'] = df[frontend_cols].sum(axis=1) / (df['total_lines'] + 1e-6)
+        df['frontend_lang_ratio'] = df[frontend_cols].sum(axis=1) / (total_lines+ 1e-6)
     else:
         df['frontend_lang_ratio'] = 0
         
     if backend_cols:
-        df['backend_lang_ratio'] = df[backend_cols].sum(axis=1) / (df['total_lines'] + 1e-6)
+        df['backend_lang_ratio'] = df[backend_cols].sum(axis=1) / (total_lines + 1e-6)
     else:
         df['backend_lang_ratio'] = 0
         
     if mobile_cols:
-        df['mobile_lang_ratio'] = df[mobile_cols].sum(axis=1) / (df['total_lines'] + 1e-6)
+        df['mobile_lang_ratio'] = df[mobile_cols].sum(axis=1) / (total_lines + 1e-6)
     else:
         df['mobile_lang_ratio'] = 0
         
     if system_cols:
-        df['system_lang_ratio'] = df[system_cols].sum(axis=1) / (df['total_lines'] + 1e-6)
+        df['system_lang_ratio'] = df[system_cols].sum(axis=1) / (total_lines+ 1e-6)
     else:
         df['system_lang_ratio'] = 0
     
@@ -189,7 +189,238 @@ def create_language_features(df: pd.DataFrame, language_columns: List[str]) -> p
     
     print("✅ 언어 특성 엔지니어링 완료")
     return df
-
+def create_stack_specific_keywords(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    7개 스택별 특화 키워드를 기반으로 특성을 생성하는 함수
+    """
+    print("🎯 스택별 특화 키워드 특성 생성 중...")
+    
+    # 스택별 특화 키워드 정의
+    stack_keywords = {
+        'frontend': [
+            'react', 'angular', 'vue', 'svelte',
+            'html', 'css', 'sass', 'typescript', 'javascript',
+            'bootstrap', 'tailwind', 'ui', 'ux', 'dom',
+            'webpack', 'vite', 'next', 'nuxt',
+            'spa', 'pwa', 'website', 'browser', 'frontend'
+        ],
+        'server':['server', 'backend', 'rest', 'graphql', 'rpc', 'webhook',
+            'microservice', 'monolith', 'database', 'sql', 'nosql',
+            'mongodb', 'postgresql', 'mysql', 'redis', 'sqlite', 'elastic', 'elastic-search',
+            'node.js', 'express', 'koa', 'hapi', 'fastify', 'fastapi', 'django', 'flask',
+            'spring', 'laravel', 'nest', 'sanic', 'gin', 'actix', 'routing', 'controller',
+            'mvc', 'orm', 'prisma', 'sequelize', 'typeorm','router'
+            'authentication', 'authorization', 'jwt', 'oauth', 'session', 'cookie',
+            'middleware', 'endpoint', 'http', 'https', 'request', 'response',
+            'cache',  'reverse-proxy', 'cors', 'rate-limiting',
+            'websocket', 'swagger', 'openapi', 'rabbitmq', 'kafka',  'tomcat', 
+            'bcrypt', 'hashing', 'encryption', 'salt', 'socket.io', 'api-gateway',
+            'service-mesh', 'circuit-breaker', 'strapi', 'quarkus', 'soa', 'bff', 'postman', 'insomnia'
+            'backend-service', 'api-server', 'load-balancer', 'reverse-proxy', 'infrastructure'],
+        # ''''server': [
+        #     'java', 'data', 'python', 'client', 
+        #     'react', 'php', 'javascript', 'system', 'server', 'apache', 'spring', 
+        #     'management', 'bootstrap', 'laravel', 'django', 'flask', 'node', 'express',
+        #     'sql', 'nosql', 'mongodb', 'postgresql', 'mysql', 'redis',
+        #     'docker', 'kubernetes', 'aws', 'azure', 'gcp', 'microservice', 'rest',
+        #     'graphql', 'jwt', 'oauth', 'crud', 'orm'
+        # ],'''
+        # 'server': [
+#     'backend', 'rest', 'graphql', 'rpc', 'webhook',
+#     'microservice', 'monolith',
+#     'api-server', 'controller', 'middleware', 'routing',
+#     'express', 'koa', 'hapi', 'fastify', 'nest',
+#     'django', 'flask', 'spring', 'laravel',
+#     'prisma', 'sequelize', 'typeorm', 'orm',
+#     'jwt', 'oauth', 'session', 'cookie', 'authentication', 'authorization',
+#     'swagger', 'openapi', 'postman', 'insomnia'
+# ]     
+        'android': [
+            'android', 'flutter', 'native', 'view',
+            'design', 'material', 'kotlin', 'support', 
+            'image', 'video', 'sdk', 'gradle', 'studio', 'activity', 
+            'fragment', 'intent', 'recyclerview', 'room', 'retrofit', 'coroutines',
+            'jetpack', 'compose', 'mvvm', 'livedata', 'viewmodel', 'firebase', 'play'
+        ],
+        
+        'ios': [
+            'ios', 'swift','library', 'flutter', 'swiftui', 
+            'development', 'package', 'custom', 'xamarin', 'objective', 'xcode', 
+            'iphone', 'ipad', 'uikit', 'cocoa', 'pods', 'carthage', 'realm',
+            'storyboard', 'autolayout', 'delegate', 'protocol', 'arc', 'gcd',
+            'appstore', 'testflight'
+        ],
+        
+       'visualization': [
+            'data', 'visualization', 'chart', 'graph', 'd3', 'plotly', 'dashboard', 
+            'interactive', 'analysis', 'report',
+            'matplotlib', 'seaborn', 'bokeh', 'tableau', 'powerbi', 'chart.js',
+            'highcharts', 'echarts', 'vis', 'insight', 'metric', 'kpi', 'business',
+            'intelligence', 'bi', 'analytics'
+        ],
+        
+        'ml_data': [
+            'learning', 'python', 'data', 'deep', 'tensorflow', 'machine', 
+            'networks', 'models', 'pytorch', 'neural', 'object', 'caffe', 
+            'detection', 'reinforcement', 'analysis', 'ai', 'artificial', 'intelligence',
+            'keras', 'sklearn', 'pandas', 'numpy', 'jupyter', 'notebook', 'algorithm',
+            'regression', 'classification', 'clustering', 'nlp', 'cv', 'computer', 'vision',
+            'feature', 'training', 'prediction', 'dataset', 'preprocessing'
+        ],
+         'system' : [
+                'linux', 'unix', 'windows', 'macos', 'kernel', 'bash', 'shell', 'powershell',
+                'infrastructure', 'deployment', 'ci', 'cd', 'build', 'runner', 'system','os','infra'
+                'docker', 'kubernetes', 'container', 'pod', 'cluster', 'command-line', 'terminal', 'script', 'crontab',
+                'ansible', 'terraform', 'helm', 'logging', 'monitoring', 'prometheus', 'grafana','gunicorn', 
+                'nginx', 'pm2', 'gunicorn', 'socket', 'tcp', 'udp', 'dns','loadbalancer', 'proxy',
+                'load', 'latency', 'uptime', 'network', 'firewall', 'security','node','nginx','pm2','pipeline', 
+                 'automation',  'backup', 'restore','configuration', 'recovery', 'admin', 'failover', 'scalability'
+            ],
+        #  'system': [
+        #     'system', 'linux', 'server', 'network', 'security', 'docker', 'kubernetes', 
+        #     'monitoring', 'deployment', 'infrastructure', 'devops', 'automation', 
+        #     'performance', 'unix', 'windows', 'shell', 'bash', 'script', 'ci', 'cd',
+        #     'pipeline', 'logging', 'admin', 'maintenance', 'backup', 'recovery',
+        #     'scalability', 'load', 'balancer', 'configuration'
+        # ]
+        # 'system' : [
+        #         'system', 'linux', 'unix', 'windows', 'macos', 'kernel', 'os',
+        #         'bash', 'shell', 'powershell', 'command-line', 'terminal', 'script', 'crontab',
+        #         'devops', 'infrastructure', 'infra', 'deployment', 'build', 'ci', 'cd', 
+        #         'pipeline', 'runner', 'monitoring', 'prometheus', 'grafana', 'logging',
+        #         'logstash', 'log', 'performance', 'profiling', 'security', 'firewall',
+        #         'network', 'socket', 'tcp', 'udp', 'dns', 'load', 'latency', 'uptime',
+        #         'docker', 'kubernetes', 'swarm', 'cluster', 'container', 'pod', 'node',
+        #         'service', 'ingress', 'helm', 'ansible', 'terraform', 'puppet', 'chef',
+        #         'automation', 'configuration', 'provisioning', 'backup', 'restore',
+        #         'recovery', 'maintenance', 'admin', 'failover', 'scalability'
+        #     ],
+    }
+    
+    # 기존 일반 키워드들 (호환성 유지)
+    general_tech_keywords = [
+        'agile', 'algorithm', 'api', 'app', 'automation', 'aws', 'azure', 'backend',
+    'bot', 'build', 'cd', 'ci', 'clean-code', 'client', 'cloud', 'comment',
+    'config', 'container', 'cron', 'data', 'database', 'debug', 'deep', 'deploy',
+    'design-pattern', 'devops', 'docker', 'documentation', 'feature', 'framework',
+    'frontend', 'fullstack', 'game', 'gcp', 'git', 'github', 'gitlab', 'graphql',
+    'infrastructure', 'integration', 'issue', 'json', 'kanban', 'kubernetes',
+    'learning', 'library', 'log', 'logging', 'machine', 'metrics', 'microservice',
+    'mobile', 'mock', 'module', 'monitor', 'neural', 'package', 'performance',
+    'pipeline', 'provisioning', 'pull-request', 'readme', 'refactor',
+    'reliability', 'rest', 'review', 'run', 'scalability', 'script', 'scrum',
+    'sdk', 'server', 'sprint', 'test', 'ticket', 'tool', 'ui', 'unit-test', 'ux',
+    'version', 'web', 'xml', 'yaml','javascript'
+    ]
+    # general_tech_keywords = [
+    #     'api', 'web', 'app', 'mobile', 'data', 'machine', 'learning', 
+    #     'deep', 'neural', 'algorithm', 'database', 'server', 'client',
+    #     'framework', 'library', 'tool', 'bot', 'game', 'ui', 'ux',
+    #     'frontend', 'backend', 'fullstack', 'devops', 'microservice'
+    # ]
+    
+    # 1. 기존 일반 키워드 특성 생성
+    print("   일반 기술 키워드 처리 중...")
+    for keyword in general_tech_keywords:
+        df[f'has_{keyword}'] = df['description'].str.contains(keyword, case=False, na=False).astype(int)
+    
+    # 2. 스택별 특화 키워드 특성 생성
+    print("   실제 데이터 기반 스택별 특화 키워드 처리 중...")
+    for stack_name, keywords in stack_keywords.items():
+        print(f"     {stack_name}: {len(keywords)}개 키워드")
+        
+        # 각 키워드별로 개별 특성 생성
+        for keyword in keywords:
+            df[f'{stack_name}_{keyword}'] = df['description'].str.contains(keyword, case=False, na=False).astype(int)
+        
+        # 스택별 총 키워드 개수 (해당 스택과 관련된 키워드가 몇 개나 포함되어 있는지)
+        stack_columns = [f'{stack_name}_{keyword}' for keyword in keywords]
+        df[f'{stack_name}_keyword_count'] = df[stack_columns].sum(axis=1)
+        
+        # 스택별 키워드 비율 (전체 단어 대비 해당 스택 키워드 비율)
+        df[f'{stack_name}_keyword_ratio'] = df[f'{stack_name}_keyword_count'] / (df['description_word_count'] + 1)
+        
+        # 스택별 키워드 존재 여부 (하나라도 있으면 1)
+        df[f'has_{stack_name}_keywords'] = (df[f'{stack_name}_keyword_count'] > 0).astype(int)
+    
+    # 3. 교차 스택 특성 (복합 스택 개발자 식별)
+    print("   교차 스택 특성 생성 중...")
+    
+    # Full-stack 관련 특성
+    df['is_fullstack_likely'] = (
+        (df['has_frontend_keywords'] == 1) & 
+        (df['has_server_keywords'] == 1)
+    ).astype(int)
+    
+    # Mobile 개발자 (Android + iOS)
+    df['is_mobile_dev'] = (
+        (df['has_android_keywords'] == 1) | 
+        (df['has_ios_keywords'] == 1)
+    ).astype(int)
+    
+    # Data-focused 개발자 (ML + Visualization)
+    df['is_data_focused'] = (
+        (df['has_ml_data_keywords'] == 1) | 
+        (df['has_visualization_keywords'] == 1)
+    ).astype(int)
+    
+    # Backend-heavy 개발자 (Server + System)
+    df['is_backend_heavy'] = (
+        (df['has_server_keywords'] == 1) & 
+        (df['has_system_keywords'] == 1)
+    ).astype(int)
+    
+    # 4. 키워드 다양성 지수 (얼마나 다양한 스택에 관심이 있는지)
+    stack_interest_cols = [f'has_{stack}_keywords' for stack in stack_keywords.keys()]
+    df['stack_diversity'] = df[stack_interest_cols].sum(axis=1)
+    
+    # 5. 주력 스택 추정 (키워드 기반)
+    stack_count_cols = [f'{stack}_keyword_count' for stack in stack_keywords.keys()]
+    
+    # 가장 많은 키워드를 가진 스택을 주력 스택으로 추정
+    stack_counts_array = df[stack_count_cols].values
+    df['estimated_main_stack_idx'] = np.argmax(stack_counts_array, axis=1)
+    
+    # 주력 스택 이름
+    stack_names = list(stack_keywords.keys())
+    df['estimated_main_stack'] = df['estimated_main_stack_idx'].apply(lambda x: stack_names[x])
+    
+    # 주력 스택 신뢰도 (주력 스택 키워드 수 / 전체 기술 키워드 수)
+    df['main_stack_confidence'] = np.max(stack_counts_array, axis=1) / (np.sum(stack_counts_array, axis=1) + 1)
+    
+    # 6. 통계 정보 출력
+    print(f"\n📊 생성된 키워드 특성 통계:")
+    print(f"   일반 키워드 특성: {len(general_tech_keywords)}개")
+    
+    total_stack_features = 0
+    for stack_name, keywords in stack_keywords.items():
+        stack_features = len(keywords) + 3  # 개별 키워드 + count + ratio + has_keywords
+        total_stack_features += stack_features
+        
+        # 각 스택별 키워드 매칭 통계
+        keyword_count_col = f'{stack_name}_keyword_count'
+        has_keywords_col = f'has_{stack_name}_keywords'
+        
+        avg_keywords = df[keyword_count_col].mean()
+        users_with_keywords = df[has_keywords_col].sum()
+        percentage = (users_with_keywords / len(df)) * 100
+        
+        print(f"   {stack_name}: {len(keywords)}개 키워드, 평균 {avg_keywords:.1f}개 매칭, {users_with_keywords}명 ({percentage:.1f}%)")
+    
+    print(f"   스택별 특성 총계: {total_stack_features}개")
+    print(f"   교차 스택 특성: 4개")
+    print(f"   다양성 특성: 4개")
+    print(f"   총 키워드 관련 특성: {len(general_tech_keywords) + total_stack_features + 8}개")
+    
+    # 7. 주력 스택 추정 결과
+    print(f"\n🎯 키워드 기반 주력 스택 추정 결과:")
+    estimated_stack_dist = df['estimated_main_stack'].value_counts()
+    for stack, count in estimated_stack_dist.items():
+        percentage = (count / len(df)) * 100
+        print(f"   {stack}: {count}명 ({percentage:.1f}%)")
+    
+    print("✅ 실제 데이터 기반 스택별 특화 키워드 특성 생성 완료")
+    return df
 def improve_text_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     텍스트 특성을 개선하는 함수
@@ -204,16 +435,8 @@ def improve_text_features(df: pd.DataFrame) -> pd.DataFrame:
     df['description_word_count'] = df['description'].str.split().str.len()
     df['repo_names_word_count'] = df['repo_names'].str.split().str.len()
     
-    # 3. 기술 관련 키워드 포함 여부
-    tech_keywords = [
-        'api', 'web', 'app', 'mobile', 'data', 'machine', 'learning', 
-        'deep', 'neural', 'algorithm', 'database', 'server', 'client',
-        'framework', 'library', 'tool', 'bot', 'game', 'ui', 'ux',
-        'frontend', 'backend', 'fullstack', 'devops', 'microservice'
-    ]
-    
-    for keyword in tech_keywords:
-        df[f'has_{keyword}'] = df['description'].str.contains(keyword, case=False, na=False).astype(int)
+    # 2. 스택별 특화 키워드 특성 생성 (새로 추가)
+    df = create_stack_specific_keywords(df)
     
     # 4. 빈 텍스트 처리 개선
     df['has_description'] = (df['description'] != 'no description available').astype(int)
@@ -227,7 +450,7 @@ def improve_text_features(df: pd.DataFrame) -> pd.DataFrame:
     print("✅ 텍스트 특성 개선 완료")
     return df
 
-def filter_low_variance_features(X: np.ndarray, threshold: float = 0.0001) -> Tuple[np.ndarray, np.ndarray]:
+def filter_low_variance_features(X: np.ndarray, threshold: float = 0.0005) -> Tuple[np.ndarray, np.ndarray]:
     """
     분산이 낮은 특성들을 제거하는 함수
     """
@@ -236,7 +459,14 @@ def filter_low_variance_features(X: np.ndarray, threshold: float = 0.0001) -> Tu
     selector = VarianceThreshold(threshold=threshold)
     X_filtered = selector.fit_transform(X)
     selected_features = selector.get_support()
-    
+
+    variances = selector.variances_
+    # 분산 상위 10개 특성 출력
+    top_indices = np.argsort(variances)[::-1][:10]
+    print("\n🔥 분산이 높은 Top 10 특성:")
+    for i, idx in enumerate(top_indices, 1):
+        print(f"  {i}. Index {idx} - Variance: {variances[idx]:.6f}")
+
     removed_count = (~selected_features).sum()
     print(f"✅ {removed_count}개 특성 제거됨 ({X.shape[1]} → {X_filtered.shape[1]})")
     
@@ -599,7 +829,7 @@ def main():
     
     if 'C' in df.columns and 'C++' in df.columns:
         df["C/C++"] = df[['C', 'C++']].sum(axis=1)
-        df.drop(columns=['C', 'C++'], inplace=True)
+        #df.drop(columns=['C', 'C++'], inplace=True)
         print("✅ C + C++ → C/C++ 통합 완료")
     
     # 2. Repository 이름과 설명 분리
@@ -628,7 +858,7 @@ def main():
             print(f"   {stack}: {count}회")
         
         print("✅ Stack 데이터 처리 완료")
-    
+    df.drop(columns=['C', 'C++'], inplace=True)
     # 4. 언어 컬럼 확인 및 특성 엔지니어링
     print("\n📊 언어 데이터 확인 및 특성 생성 중...")
     exclude_columns = {'user_ID', 'username', 'repo_count', 'repo_names', 'description', 'stack', 'stack_list', 'note'}
@@ -695,7 +925,7 @@ def main():
     
     # 언어 특성 (기존 + 새로 생성된 특성)
     language_feature_cols = language_columns + [
-        'total_lines', 'num_languages', 'main_language_ratio', 
+        'num_languages', 'main_language_ratio', 
         'language_diversity', 'frontend_lang_ratio', 'backend_lang_ratio',
         'mobile_lang_ratio', 'system_lang_ratio'
     ]
@@ -727,7 +957,7 @@ def main():
     print(f"   총 특성: {X_total.shape[1]}개")
     
     # 8. 낮은 분산 특성 제거
-    X_total, selected_features = filter_low_variance_features(X_total, threshold=0.0001)
+    X_total, selected_features = filter_low_variance_features(X_total, threshold=0.0005)
     
     
     # 9. 타겟 변수 처리 (7개 주요 스택만 사용)
@@ -870,7 +1100,7 @@ def main():
         percentage = (count / len(y_balanced_single)) * 100
         print(f"   {stack_name}: {count}개 ({percentage:.1f}%)")
     
-    # 13. 사용 가이드 출력
+    '''# 13. 사용 가이드 출력
     print(f"\n📖 사용 가이드:")
     print(f"=" * 50)
     print(f"🔹 원본 데이터 사용:")
@@ -893,7 +1123,7 @@ def main():
     print(f"       class_weights = pickle.load(f)")
     print(f"   # 모델 학습시:")
     print(f"   model.fit(X_train, y_train, class_weight=class_weights, ...)")
-    print(f"=" * 50)
+    print(f"=" * 50)'''
     
     # 14. 예상 성능 향상 요약
     original_imbalance = max(Counter(np.argmax(y_filtered, axis=1)).values()) / min(Counter(np.argmax(y_filtered, axis=1)).values())
